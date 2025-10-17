@@ -1,0 +1,3025 @@
+{
+    "@id": "http://lexicon.osfarm.org/seeds/varieties.json?page=4",
+    "title": "Variétés",
+    "breadcrumbs": [
+        {
+            "@type": "Link",
+            "value": "Accueil",
+            "method": "GET",
+            "href": "/"
+        },
+        {
+            "@type": "Link",
+            "value": "Semences",
+            "method": "GET",
+            "href": "/seeds"
+        }
+    ],
+    "form": {
+        "species": {
+            "@type": "Text",
+            "label": "Espèce",
+            "required": false
+        }
+    },
+    "table": {
+        "columns": {
+            "code": "Code SEMAE",
+            "species": "Espèce",
+            "variety": "Variété",
+            "registration_date": "Date d'inscription"
+        },
+        "rows": [
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E876"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AIGLE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "30/03/2021",
+                    "iso": "2021-03-30T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D139"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AIGRETTE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "23/07/2014",
+                    "iso": "2014-07-23T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C373"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AKAZIA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D237"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ALANDO"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D188"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ALAUDA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "23/07/2014",
+                    "iso": "2014-07-23T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005A986"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ALBATROS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E425"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ALGERD"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C990"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ALISHA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E835"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ALLANYA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005A414"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ALLIGATOR"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "13/05/2001",
+                    "iso": "2001-05-13T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F207"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ALMITA KWS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "08/03/2024",
+                    "iso": "2024-03-08T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D063"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ALPACA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005A199"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ALTEA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E597"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ALVERINA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D529"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AMADEUS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C685"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AMALDI"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F297"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AMANTINA KWS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "08/03/2024",
+                    "iso": "2024-03-08T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D148"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AMAROK"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "07/03/2015",
+                    "iso": "2015-03-07T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E942"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AMARRE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/07/2023",
+                    "iso": "2023-07-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C445"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AMBASSADOR"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D213"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AMBERT"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0051422"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AMELIE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "04/07/1989",
+                    "iso": "1989-07-04T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E946"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AMERIVA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E271"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AMINAVHE"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F189"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AMUR SMART"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005A787"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ANACONDA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "13/04/2003",
+                    "iso": "2003-04-13T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F190"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ANGARA SMART"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D403"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ANNABELLA KWS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/02/2016",
+                    "iso": "2016-02-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E598"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ANNAFRIEDA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E069"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ANNAMIRA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D584"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ANNAROSA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E841"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ANNATINA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E965"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ANNEDORA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D054"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ANNELAURA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E581"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ANNEMARTHA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E274"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ANNEMONIKA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005B954"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ANTEK"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E996"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ANTONICA KWS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/07/2023",
+                    "iso": "2023-07-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E838"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARABESQUA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E744"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARAGON"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D778"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARAL"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D990"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARCADIA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C657"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARCAS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E687"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARCHIPEL"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "30/03/2021",
+                    "iso": "2021-03-30T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E547"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARCHOS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005B432"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARDAN"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "29/03/2006",
+                    "iso": "2006-03-29T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D691"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARGUMENT"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0053580"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARIETE"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C832"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARMESA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C119"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARMIN"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F298"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARMOISE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "08/03/2024",
+                    "iso": "2024-03-08T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D171"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARTIC"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "23/07/2014",
+                    "iso": "2014-07-23T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E548"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARUM"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/03/2020",
+                    "iso": "2020-03-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005B682"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ASKETA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E884"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ASPEN"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E845"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ASTURIDIA KWS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "30/03/2021",
+                    "iso": "2021-03-30T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D317"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ATALANTE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "07/03/2015",
+                    "iso": "2015-03-07T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F387"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ATAMAN SMART"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E055"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ATHENEA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "25/02/2018",
+                    "iso": "2018-02-25T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005A093"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ATHOSPOLY"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0051960"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ATLANTIS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "02/08/1995",
+                    "iso": "1995-08-02T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C263"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ATTACK"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E734"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ATTUT"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D502"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AUCKLAND"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/02/2016",
+                    "iso": "2016-02-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0053533"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AUGE"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F062"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AUGUST"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E833"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AURELIA KWS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "12/04/2022",
+                    "iso": "2022-04-12T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0051783"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AURIS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D503"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AUROCH"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/02/2016",
+                    "iso": "2016-02-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0051614"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AUTAVE"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0051967"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AVANTAGE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "07/05/1997",
+                    "iso": "1997-05-07T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005B289"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AVIA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D456"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AVISO"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005B979"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AZABA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E426"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AZAMAT"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E599"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AZELIA KWS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/03/2020",
+                    "iso": "2020-03-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0051522"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AZTEC"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005B762"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AZULATA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E583"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AZURA KWS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "30/03/2021",
+                    "iso": "2021-03-30T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005A118"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BACCARA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "30/05/2000",
+                    "iso": "2000-05-30T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E773"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BAGRATION"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E774"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BAGRIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C424"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BAIJI"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0051945"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BAIKAL"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E190"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BAKONY"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F209"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BALANCIA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D352"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BALATON"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0051700"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BALDER"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D915"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BALEAR"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D928"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BALI"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D368"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BALKIS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C138"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BALOO"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F154"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BALSA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/07/2023",
+                    "iso": "2023-07-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C276"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BALTHAZAR"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D362"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BALZANE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/02/2016",
+                    "iso": "2016-02-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D518"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BAMBOU"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/02/2016",
+                    "iso": "2016-02-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E513"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BANARES"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E885"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BANDA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005B988"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BAOBAB"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "13/03/2010",
+                    "iso": "2010-03-13T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0052123"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BARACA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "22/03/1996",
+                    "iso": "1996-03-22T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E003"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BARBADOS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F213"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BARBARICA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005B336"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BARBATE"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E335"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BARELLI"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C664"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BARENTS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "24/06/2012",
+                    "iso": "2012-06-24T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D098"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BARIBAL"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005A235"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BARON"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D021"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BARONESSA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E811"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BARONIKA KWS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "12/04/2022",
+                    "iso": "2022-04-12T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D929"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BARROSA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C718"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BARTAVELLE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "01/03/2013",
+                    "iso": "2013-03-01T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C473"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BARTOK"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F275"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BASILIC"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/07/2023",
+                    "iso": "2023-07-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E428"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BASTEN"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C823"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BATMAN"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E124"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BAUER"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D930"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BAYAMO"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E666"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BECANE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "13/03/2020",
+                    "iso": "2020-03-13T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E710"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BEETHOVEN"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C719"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BEETLE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "01/03/2013",
+                    "iso": "2013-03-01T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F299"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BELLAROSA KWS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "08/03/2024",
+                    "iso": "2024-03-08T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005B508"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BELLINI"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005B576"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BENNO"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E429"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BENON"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E839"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BENVENUTA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C963"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BERBER"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D145"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BERCERO"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E188"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BERGSON"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "13/03/2020",
+                    "iso": "2020-03-13T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E668"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BERKLY"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "13/03/2020",
+                    "iso": "2020-03-13T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C721"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BERNACHE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "01/03/2013",
+                    "iso": "2013-03-01T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C297"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BERNY"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0051203"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BERSEA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "06/06/1984",
+                    "iso": "1984-06-06T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E680"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BERTHOLDA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F300"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BERTIDA KWS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "08/03/2024",
+                    "iso": "2024-03-08T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C676"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BERTON"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005B186"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BIATHLON"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "25/03/2005",
+                    "iso": "2005-03-25T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D969"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BIELIK"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C139"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BIFORT"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F284"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BIKINI"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E952"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BILJANA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D162"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BIMBO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "23/07/2014",
+                    "iso": "2014-07-23T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0051204"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BINGO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "06/06/1984",
+                    "iso": "1984-06-06T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F490"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BIOKO"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005B823"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BISON"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "29/02/2008",
+                    "iso": "2008-02-29T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E935"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BISQUINE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/07/2023",
+                    "iso": "2023-07-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F241"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BLANCHETTA KWS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "08/03/2024",
+                    "iso": "2024-03-08T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E573"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BLANDINA KWS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "30/03/2021",
+                    "iso": "2021-03-30T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F484"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BLANS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005B478"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BLENHEIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D748"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BLOODHOUND"
+                }
+            }
+        ]
+    },
+    "credit": {
+        "provider": {
+            "@type": "Text",
+            "label": "Fournisseur",
+            "value": "SEMAE"
+        },
+        "website": {
+            "@type": "Link",
+            "label": "credits_website",
+            "value": "https://www.semae.fr/catalogue-varietes/base-varietes-gnis/",
+            "icon": "/public/icons/link.svg",
+            "method": "GET",
+            "href": "https://www.semae.fr/catalogue-varietes/base-varietes-gnis/"
+        },
+        "date": {
+            "@type": "Date",
+            "label": "credits_date",
+            "value": "26/01/2025",
+            "iso": "2025-01-26T00:00:00.000Z"
+        }
+    },
+    "items-per-page": 150,
+    "items-count": 150,
+    "items-total": 20145,
+    "page": 4,
+    "total-pages": 135,
+    "pages": [
+        {
+            "@type": "Link",
+            "value": "1",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=1"
+        },
+        {
+            "@type": "Link",
+            "value": "2",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=2"
+        },
+        {
+            "@type": "Link",
+            "value": "3",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=3"
+        },
+        {
+            "@type": "Link",
+            "value": "4",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=4"
+        },
+        {
+            "@type": "Link",
+            "value": "5",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=5"
+        },
+        {
+            "@type": "Link",
+            "value": "6",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=6"
+        },
+        {
+            "@type": "Link",
+            "value": "7",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=7"
+        },
+        {
+            "@type": "Link",
+            "value": "8",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=8"
+        },
+        {
+            "@type": "Link",
+            "value": "9",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=9"
+        }
+    ],
+    "navigation": {
+        "first-page": {
+            "@type": "Link",
+            "value": "1",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=1"
+        },
+        "previous-page": {
+            "@type": "Link",
+            "value": "Page précédente",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=3"
+        },
+        "next-page": {
+            "@type": "Link",
+            "value": "Page suivante",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=5"
+        },
+        "last-page": {
+            "@type": "Link",
+            "value": "135",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=135"
+        }
+    },
+    "formats": {
+        "html": {
+            "@type": "Link",
+            "value": "HTML",
+            "method": "GET",
+            "href": "/seeds/varieties?page=4"
+        },
+        "json": {
+            "@type": "Link",
+            "value": "JSON",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=4"
+        },
+        "csv": {
+            "@type": "Link",
+            "value": "CSV",
+            "method": "GET",
+            "href": "/seeds/varieties.csv?page=4"
+        }
+    }
+}

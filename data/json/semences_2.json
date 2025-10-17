@@ -1,0 +1,3277 @@
+{
+    "@id": "http://lexicon.osfarm.org/seeds/varieties.json?page=3",
+    "title": "Variétés",
+    "breadcrumbs": [
+        {
+            "@type": "Link",
+            "value": "Accueil",
+            "method": "GET",
+            "href": "/"
+        },
+        {
+            "@type": "Link",
+            "value": "Semences",
+            "method": "GET",
+            "href": "/seeds"
+        }
+    ],
+    "form": {
+        "species": {
+            "@type": "Text",
+            "label": "Espèce",
+            "required": false
+        }
+    },
+    "table": {
+        "columns": {
+            "code": "Code SEMAE",
+            "species": "Espèce",
+            "variety": "Variété",
+            "registration_date": "Date d'inscription"
+        },
+        "rows": [
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A334"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RGT ILIADE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "17/04/2014",
+                    "iso": "2014-04-17T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A351"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RGT INSIGNIA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A451"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RGT JARCHA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A396"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RGT MONTBLANC"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "26/11/2020",
+                    "iso": "2020-11-26T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A438"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RGT NACRE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "22/12/2024",
+                    "iso": "2024-12-22T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A341"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RGT PLEIADE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "31/03/2016",
+                    "iso": "2016-03-31T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A370"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RGT RIVERA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A434"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RGT SKARA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A350"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RGT SOUTHWARK"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/01/2019",
+                    "iso": "2019-01-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A360"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RGT VAILLA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "25/02/2017",
+                    "iso": "2017-02-25T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A423"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RGT VAUGHAN"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/03/2023",
+                    "iso": "2023-03-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A401"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RGT VEGETALIA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A331"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SCORPION"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A424"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SCOTTY"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A271"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SUSA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A267"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SW DALGUISE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "17/02/2005",
+                    "iso": "2005-02-17T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A347"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SYMPHONY"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A327"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "TIMOKO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "21/12/2013",
+                    "iso": "2013-12-21T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A304"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "TRITON"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A322"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "TYPHON"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A273"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "UNE DE MAI"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "19/01/2006",
+                    "iso": "2006-01-19T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A328"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VODKA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "21/12/2013",
+                    "iso": "2013-12-21T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A416"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "WILAND"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "510A302"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AVOINE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ZORRO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "15/01/2009",
+                    "iso": "2009-01-15T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0060072"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ABERNA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062147"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ABRAMO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "08/03/2024",
+                    "iso": "2024-03-08T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062148"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ADRIAMO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "08/03/2024",
+                    "iso": "2024-03-08T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062099"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ALFRED"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062002"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ALPES"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "13/12/2000",
+                    "iso": "2000-12-13T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062136"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ANSELMO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/07/2023",
+                    "iso": "2023-07-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062100"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AVERSA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/02/2019",
+                    "iso": "2019-02-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0061041"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BARBARA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "22/09/1992",
+                    "iso": "1992-09-22T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0061030"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BELMONO"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062170"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BENTLY"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "14/06/2024",
+                    "iso": "2024-06-14T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062089"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BETIMO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/02/2016",
+                    "iso": "2016-02-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062031"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BLAZE"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062012"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BLIZZARD"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0061043"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BOLERO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "14/07/1990",
+                    "iso": "1990-07-14T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062043"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BONITO"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062084"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BRICK"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/02/2016",
+                    "iso": "2016-02-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062025"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BRIGADIER"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062071"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BRUNIUM"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "12/12/2013",
+                    "iso": "2013-12-12T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062124"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BUCIANSKY ZLTY VALEC"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062053"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CAGNOTTE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "24/06/2012",
+                    "iso": "2012-06-24T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062058"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CARIBOU"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "24/06/2012",
+                    "iso": "2012-06-24T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062128"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CARIKO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "30/03/2021",
+                    "iso": "2021-03-30T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062143"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CERILO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/07/2023",
+                    "iso": "2023-07-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062039"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CERISE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "19/03/2011",
+                    "iso": "2011-03-19T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062087"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CINDY KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062149"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CINNAMO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "08/03/2024",
+                    "iso": "2024-03-08T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062076"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CORINDON"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "07/03/2015",
+                    "iso": "2015-03-07T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062085"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CRIXE"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062150"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DALPHA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "08/03/2024",
+                    "iso": "2024-03-08T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062088"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DEBBY KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062139"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DERIXA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/07/2023",
+                    "iso": "2023-07-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062132"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DYNAMO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/07/2023",
+                    "iso": "2023-07-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062109"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ELOQUENTA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062081"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ENERGARCI"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "28/12/2023",
+                    "iso": "2023-12-28T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062080"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ENERMAX"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "28/12/2023",
+                    "iso": "2023-12-28T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062151"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ENIGMO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "08/03/2024",
+                    "iso": "2024-03-08T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062152"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ETINCELLE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "08/03/2024",
+                    "iso": "2024-03-08T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062092"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "FELDHERR"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062086"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "FLORIE"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062127"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "FORIBO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "30/03/2021",
+                    "iso": "2021-03-30T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062049"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "FORTIMO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "24/06/2012",
+                    "iso": "2012-06-24T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062107"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "FOSYMA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "13/03/2020",
+                    "iso": "2020-03-13T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0060005"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GEANTE BLANCHE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "01/01/1969",
+                    "iso": "1969-01-01T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0060007"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GEANTE ROUGE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "01/01/1969",
+                    "iso": "1969-01-01T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062061"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GERONIMO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "07/03/2015",
+                    "iso": "2015-03-07T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062060"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GERTY KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062037"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GIALLA CILINDRICA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062134"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GIRIDA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "12/04/2022",
+                    "iso": "2022-04-12T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062141"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GITTY KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062096"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GODIVA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062091"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GOLDIMO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/02/2019",
+                    "iso": "2019-02-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062126"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GUSTEA KWS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "30/03/2021",
+                    "iso": "2021-03-30T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062142"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "HAKIMO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/07/2023",
+                    "iso": "2023-07-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062171"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ISIE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "14/06/2024",
+                    "iso": "2024-06-14T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0061052"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "JAMON"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "22/09/1992",
+                    "iso": "1992-09-22T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0061084"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "JARY"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "06/04/1999",
+                    "iso": "1999-04-06T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0060014"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "JAUNE D'ECKENDORF"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "01/01/1952",
+                    "iso": "1952-01-01T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0060017"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "JAUNE GEANTE DE VAURIAC"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "01/01/1952",
+                    "iso": "1952-01-01T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062130"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "KOKOMO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/07/2023",
+                    "iso": "2023-07-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0061006"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "KYROS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "01/01/1975",
+                    "iso": "1975-01-01T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062125"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "LACINIA KWS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/03/2020",
+                    "iso": "2020-03-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062010"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "LACTIMO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "30/05/2000",
+                    "iso": "2000-05-30T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062104"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "LEMPA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/02/2019",
+                    "iso": "2019-02-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0061090"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "MERVEILLE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "06/04/1999",
+                    "iso": "1999-04-06T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062035"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "MINOTAURE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "21/03/2007",
+                    "iso": "2007-03-21T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062144"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "MIVARI"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/07/2023",
+                    "iso": "2023-07-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062041"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "MONBRUN"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/03/2009",
+                    "iso": "2009-03-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0061017"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "MONRO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "06/06/1984",
+                    "iso": "1984-06-06T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062133"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "OUREA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "30/03/2021",
+                    "iso": "2021-03-30T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0060025"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "PAJBJERG REX"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062102"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "PERRINE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "25/02/2018",
+                    "iso": "2018-02-25T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062103"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "PESARO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/02/2019",
+                    "iso": "2019-02-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062110"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "PIERINA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062044"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "POLYSAIS ROSSA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062064"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "REKORD POLY"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062038"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RIALTO"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062054"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RIBAMBELLE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "19/03/2011",
+                    "iso": "2011-03-19T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062040"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RIVAGE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/03/2009",
+                    "iso": "2009-03-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062011"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ROBBOS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062095"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ROSSA MAMMOUTH"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0060038"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ROUGE D'ECKENDORF"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "01/01/1952",
+                    "iso": "1952-01-01T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062153"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SIF"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "08/03/2024",
+                    "iso": "2024-03-08T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062140"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SIRIZU"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062146"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SMART JOSINA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062145"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SMART SITTA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062030"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SUMMO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "29/03/2006",
+                    "iso": "2006-03-29T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062075"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "TARINE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "07/03/2015",
+                    "iso": "2015-03-07T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062154"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ULTIMO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "08/03/2024",
+                    "iso": "2024-03-08T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062137"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VALENCE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/07/2023",
+                    "iso": "2023-07-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062070"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VARIANS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "05/12/2014",
+                    "iso": "2014-12-05T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062106"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VELDEMA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "13/03/2020",
+                    "iso": "2020-03-13T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0061013"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VERMON"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "09/08/1980",
+                    "iso": "1980-08-09T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062077"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VIRIDIS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "07/03/2015",
+                    "iso": "2015-03-07T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0062097"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE FOURRAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "YODA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021032"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AMARENA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "29/03/2023",
+                    "iso": "2023-03-29T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021030"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BOSTON"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/01/2019",
+                    "iso": "2019-01-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021024"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CAMARO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "28/09/2012",
+                    "iso": "2012-09-28T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021022"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CARDEAL"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "22/03/2011",
+                    "iso": "2011-03-22T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021016"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "COVENT GARDEN"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "21/06/2003",
+                    "iso": "2003-06-21T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021031"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CRANBURY"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "06/04/2019",
+                    "iso": "2019-04-06T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021001"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CRAPAUDINE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "01/01/1952",
+                    "iso": "1952-01-01T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021004"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "D' EGYPTE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "01/01/1952",
+                    "iso": "1952-01-01T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021010"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DETROIT 2"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "20/06/1991",
+                    "iso": "1991-06-20T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021011"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DETROIT 3"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "20/06/1991",
+                    "iso": "1991-06-20T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021029"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GOLDEN EYE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "29/04/2015",
+                    "iso": "2015-04-29T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021019"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GRENADE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/06/2008",
+                    "iso": "2008-06-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021007"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "NOBOL"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/06/1975",
+                    "iso": "1975-06-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021023"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RED HAWK"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "03/04/2012",
+                    "iso": "2012-04-03T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021025"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RED RIVER"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "28/09/2012",
+                    "iso": "2012-09-28T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021017"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RED TITAN"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "23/06/2006",
+                    "iso": "2006-06-23T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021020"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "REDVAL"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/06/2008",
+                    "iso": "2008-06-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2021018"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE POTAGERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RHONDA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E023"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ABANA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C578"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ACACIA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "24/06/2012",
+                    "iso": "2012-06-24T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0051647"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ACERO"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F255"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ADAGIO SMART"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E847"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ADELKA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D124"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ADMIRAL"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F253"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ADORATA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D847"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ADVENA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005F304"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AGAME SMART"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005D202"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AGASSI"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E300"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AGATELLA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005C434"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AGRONOM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E596"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AGUEDA KWS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "005E167"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "BETTERAVE SUCRIERE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AIDEN"
+                }
+            }
+        ]
+    },
+    "credit": {
+        "provider": {
+            "@type": "Text",
+            "label": "Fournisseur",
+            "value": "SEMAE"
+        },
+        "website": {
+            "@type": "Link",
+            "label": "credits_website",
+            "value": "https://www.semae.fr/catalogue-varietes/base-varietes-gnis/",
+            "icon": "/public/icons/link.svg",
+            "method": "GET",
+            "href": "https://www.semae.fr/catalogue-varietes/base-varietes-gnis/"
+        },
+        "date": {
+            "@type": "Date",
+            "label": "credits_date",
+            "value": "26/01/2025",
+            "iso": "2025-01-26T00:00:00.000Z"
+        }
+    },
+    "items-per-page": 150,
+    "items-count": 150,
+    "items-total": 20145,
+    "page": 3,
+    "total-pages": 135,
+    "pages": [
+        {
+            "@type": "Link",
+            "value": "1",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=1"
+        },
+        {
+            "@type": "Link",
+            "value": "2",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=2"
+        },
+        {
+            "@type": "Link",
+            "value": "3",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=3"
+        },
+        {
+            "@type": "Link",
+            "value": "4",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=4"
+        },
+        {
+            "@type": "Link",
+            "value": "5",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=5"
+        },
+        {
+            "@type": "Link",
+            "value": "6",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=6"
+        },
+        {
+            "@type": "Link",
+            "value": "7",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=7"
+        },
+        {
+            "@type": "Link",
+            "value": "8",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=8"
+        }
+    ],
+    "navigation": {
+        "first-page": {
+            "@type": "Link",
+            "value": "1",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=1"
+        },
+        "previous-page": {
+            "@type": "Link",
+            "value": "Page précédente",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=2"
+        },
+        "next-page": {
+            "@type": "Link",
+            "value": "Page suivante",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=4"
+        },
+        "last-page": {
+            "@type": "Link",
+            "value": "135",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=135"
+        }
+    },
+    "formats": {
+        "html": {
+            "@type": "Link",
+            "value": "HTML",
+            "method": "GET",
+            "href": "/seeds/varieties?page=3"
+        },
+        "json": {
+            "@type": "Link",
+            "value": "JSON",
+            "method": "GET",
+            "href": "/seeds/varieties.json?page=3"
+        },
+        "csv": {
+            "@type": "Link",
+            "value": "CSV",
+            "method": "GET",
+            "href": "/seeds/varieties.csv?page=3"
+        }
+    }
+}

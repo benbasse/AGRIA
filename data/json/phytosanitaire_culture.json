@@ -1,0 +1,1160 @@
+{
+    "@id": "http://lexicon.osfarm.org/phytosanitary/cropsets.json",
+    "title": "Ensembles de cultures",
+    "breadcrumbs": [
+        {
+            "@type": "Link",
+            "value": "Accueil",
+            "method": "GET",
+            "href": "/"
+        },
+        {
+            "@type": "Link",
+            "value": "Phytosanitaire",
+            "method": "GET",
+            "href": "/phytosanitary"
+        }
+    ],
+    "table": {
+        "columns": {
+            "name": "Nom",
+            "crops": "Cultures"
+        },
+        "rows": [
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Agrumes"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Oranger",
+                        "citronnier",
+                        "pamplemoussier",
+                        "mandarinier",
+                        "clémentinier",
+                        "limettes et autres agrumes"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Céréales"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Avoine",
+                        "blé",
+                        "orge",
+                        "seigle",
+                        "sarrasin",
+                        "maïs",
+                        "millet",
+                        "moha",
+                        "sorgho",
+                        "riz"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Céréales à paille"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Avoine",
+                        "blé",
+                        "orge",
+                        "seigle",
+                        "sarrasin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Champignons"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Champignons de couche",
+                        "champignons sauvages"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Chicorées - production de chicons"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Endive",
+                        "barbe de capucin",
+                        "pissenlit"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Chicorées - production de racines"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Toutes racines de chicorées"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Choux"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Choux à inflorescence",
+                        "choux feuillus",
+                        "choux pommés",
+                        "choux-rave"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Choux à inflorescence"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Chou-fleur",
+                        "brocoli et autres choux à inflorescence"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Choux feuillus"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Choux verts (type non pommés)",
+                        "choux chinois et autres choux feuillus"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Choux pommés"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Choux pommés",
+                        "choux de Bruxelles et autres choux pommés"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Concombre"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Concombre",
+                        "courgette",
+                        "cornichon et autres cucurbitacées à peau comestible"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Arbres et arbustes"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Toutes espèces ligneuses de feuillus et résineux produites en pépinières ornementales et forestières",
+                        "peupleraies",
+                        "oseraies",
+                        "palmeraies",
+                        "plantations de sapins de Noël",
+                        "vergers à graines",
+                        "suberaies cultivées",
+                        "truffières artificielles",
+                        "boisement de terrains agricoles",
+                        "taillis à courte et à très courte révolution"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Corossol"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Corossol",
+                        "cherimole",
+                        "fruit de l'arbre à pain"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Crucifères oléagineuses"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Colza",
+                        "cameline",
+                        "moutarde",
+                        "navette",
+                        "chanvre",
+                        "bourrache",
+                        "sésame",
+                        "lin oléagineux",
+                        "lin fibre"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Cultures florales et plantes vertes"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Toutes espèces de plantes florales et de plantes vertes : potées fleuries",
+                        "plantes à massifs",
+                        "vivaces",
+                        "fleurs et feuillages coupés",
+                        "jeunes plants et boutures",
+                        "y compris les espèces de plantes géophytes à bulbes",
+                        "rhizomes ou tubercules ornementaux (pendant leur phase végétative)"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Cultures fruitières"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Toutes cultures fruitières et petits fruits (cassissier",
+                        "myrtillier",
+                        "groseillier",
+                        "sureau noir",
+                        "airelle",
+                        "cynhorodon",
+                        "azerolier",
+                        "framboisier",
+                        "mûre",
+                        "mûre des haies)"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Cultures légumières"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Toutes cultures légumières"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Cultures ornementales"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Arbres et arbustes",
+                        "rosier",
+                        "cultures florales et plantes vertes",
+                        "bulbes ornementaux"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Cultures tropicales"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Toutes cultures tropicales"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Epinard"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Epinard",
+                        "feuilles de bette",
+                        "pourpier",
+                        "salicorne"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Fines herbes"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Plantes alliacées dont ciboulette. Plantes apiacées dont aneth",
+                        "persil",
+                        "cerfeuil",
+                        "feuilles de fenouil",
+                        "angélique",
+                        "carvi. Plantes astéracées dont estragon",
+                        "stevia. Plantes lamiacées dont basilic",
+                        "thym",
+                        "sauge",
+                        "sarriette",
+                        "origan",
+                        "marjolaine",
+                        "hysope",
+                        "menthe. Autres plantes condimentaires",
+                        "fines herbes consommées fraîches",
+                        "fleurs comestibles et PPAM non alimentaires"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Forêt"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Espèces d'arbres feuillus et résineux en peuplements"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Artichaut"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Artichaut",
+                        "cardon"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Framboisier"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Framboisier",
+                        "mûres (Rubus sp.)",
+                        "mûres des haies"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Fruit de la passion"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Fruit de la passion",
+                        "grenadilles",
+                        "barbadines"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Fruits à coque"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Amandier",
+                        "noyer",
+                        "châtaignier",
+                        "noisetier"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Fruits à noyau"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Pêcher",
+                        "abricotier",
+                        "cerisier",
+                        "prunier",
+                        "nectarinier",
+                        "mirabellier"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Gazons de graminées"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Toutes espèces de graminées",
+                        "comme dactyle",
+                        "fétuque utilisées pour la création de gazons"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Graines protéagineuses"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Pois protéagineux",
+                        "pois fourrager",
+                        "féveroles",
+                        "lupin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Graminées fourragères"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Toutes espèces de graminées comme ray-grass",
+                        "fétuque",
+                        "brome",
+                        "fléole pour produire du fourrage destiné à l'alimentation du bétail"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Haricots écossés frais"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Pois sabre",
+                        "flageolet",
+                        "fève",
+                        "lima",
+                        "niébé"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Haricots et pois non écossés frais"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Haricot vert",
+                        "haricot filet",
+                        "haricot d'Espagne",
+                        "haricot à couper",
+                        "dolique",
+                        "fèves de soja",
+                        "pois mange-tout"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Infusions (séchées)"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Plantes ou parties de plantes à infusion séchées (fleurs",
+                        "feuilles",
+                        "racines) ainsi que les PPAM non alimentaires"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Blé"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Blé",
+                        "triticale",
+                        "épeautre"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Laitue"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Laitue",
+                        "chicorée - scarole",
+                        "chicorée - frisée",
+                        "mâche",
+                        "roquette et autres salades"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Légumes racines et tubercules tropicaux"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Igname",
+                        "manioc",
+                        "patate douce",
+                        "songe",
+                        "dachine"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Légumineuses fourragères"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Lotier",
+                        "luzerne",
+                        "sainfoin",
+                        "trèfle",
+                        "vesce"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Légumineuses potagères (sèches)"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Fève sèche",
+                        "haricot sec",
+                        "pois sec",
+                        "pois chiche et lentille sèche"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Litchi"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Litchi",
+                        "ramboutan",
+                        "longanis"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Maïs"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Maïs",
+                        "millet",
+                        "moha",
+                        "miscanthus",
+                        "panic (dont Switchgrass)",
+                        "sorgho"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Manguier"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Manguier et autres anacardiacées"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Melon"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Melon",
+                        "pastèque",
+                        "potiron et autres cucurbitacées à peau non comestible"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Navet"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Navet",
+                        "rutabaga",
+                        "radis"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Oignon"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Oignon",
+                        "ail",
+                        "échalote et bulbes ornementaux"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Bulbes ornementaux"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Toutes espèces de plantes ornementales à bulbes",
+                        "à rhizomes ou à tubercules"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Pavot"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Pavot",
+                        "œillette",
+                        "bourrache",
+                        "chènevis",
+                        "courges à graines",
+                        "onagre",
+                        "carthame",
+                        "sésame",
+                        "ricin ainsi que les PPAM non alimentaires"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Pêcher"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Pêcher",
+                        "abricotier",
+                        "nectarinier"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Petits fruits"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Cassissier",
+                        "myrtillier",
+                        "groseillier",
+                        "sureau noir",
+                        "airelle",
+                        "cynhorodon",
+                        "azerolier",
+                        "framboisier",
+                        "mûre",
+                        "mûre des haies"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Plantes d'intérieur et balcons"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Plantes ou parties de plantes en place dans les habitations",
+                        "locaux de travail ou tous lieux fermés publics ou privés",
+                        "et sur balcons",
+                        "vérandas et terrasses directement raccordés aux intérieurs"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Poireau"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Poireau",
+                        "oignon de printemps",
+                        "ciboule et autres oignons verts"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Pois écossés frais"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Pois écossé frais et lentille fraîche"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Poivron"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Poivron",
+                        "piment"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Pommier"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Pommier",
+                        "poirier",
+                        "cognassier",
+                        "néflier",
+                        "nashi",
+                        "pommette (Malus sylvestris)"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Porte graine - PPAMC, Florales et Potagères"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Toute plante destinée à la production de semences de PPAMC",
+                        "florales ou potagères"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "PPAM - non alimentaires"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Plantes à parfum",
+                        "aromatiques et médicinales",
+                        "non alimentaires"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Carotte"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Carotte",
+                        "céleri rave",
+                        "panais",
+                        "raifort",
+                        "topinambour et crosne",
+                        "persil à grosse racine et cerfeuil tubéreux",
+                        "salsifis"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "PPAMC"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Plantes à parfum",
+                        "aromatiques",
+                        "médicinales et condimentaires (alimentaires et non alimentaires)",
+                        "épices",
+                        "fines herbes",
+                        "infusions séchées",
+                        "pavot"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Prunier"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Prunier",
+                        "jujubier"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Rosier"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Toutes espèces et cultivars du genre Rosa : rosiers miniatures en pot",
+                        "rosiers pour fleurs coupées",
+                        "rosiers de pépinières y compris les porte-greffes."
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Salsifis"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Salsifis",
+                        "scorsonère"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Soja"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Soja",
+                        "arachide"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Tomate"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Tomate",
+                        "aubergine"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Fruits à pépin"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Pommier",
+                        "poirier"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Cassissier"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Cassissier",
+                        "myrtillier",
+                        "groseillier",
+                        "sureau noir",
+                        "mûre (Morus sp.)",
+                        "airelle",
+                        "cynhorodon",
+                        "azerolier"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Céleri-branche"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Céleri branche",
+                        "fenouil",
+                        "rhubarbe"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Céleris"
+                },
+                "crops": {
+                    "@type": "List",
+                    "label": "Cultures",
+                    "values": [
+                        "Céleri branche",
+                        "céleri rave"
+                    ]
+                }
+            }
+        ]
+    }
+}

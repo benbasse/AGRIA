@@ -1,0 +1,3478 @@
+{
+    "@id": "http://lexicon.osfarm.org/viticulture/vine-varieties.json",
+    "title": "Variétés de vignes",
+    "breadcrumbs": [
+        {
+            "@type": "Link",
+            "value": "Accueil",
+            "method": "GET",
+            "href": "/"
+        },
+        {
+            "@type": "Link",
+            "value": "Viticulture",
+            "method": "GET",
+            "href": "/viticulture"
+        }
+    ],
+    "form": {
+        "category": {
+            "@type": "Select",
+            "label": "Catégorie",
+            "options": {
+                "variety": "Variété",
+                "hybrid": "Hybride",
+                "rootstock": "Porte-greffe"
+            },
+            "required": false
+        },
+        "color": {
+            "@type": "Select",
+            "label": "Couleur",
+            "options": {
+                "black": "Noire",
+                "white": "Blanche",
+                "grey": "Grise"
+            },
+            "required": false
+        }
+    },
+    "table": {
+        "columns": {
+            "name": "Nom",
+            "category": "Catégorie",
+            "color": "Couleur",
+            "utilities": "Usages"
+        },
+        "rows": [
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "101-14 Millardet Et De Grasset"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "110 Richter"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "1103 Paulsen"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Kober 125 AA"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "140 Ruggeri"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "1447 Paulsen"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "161-49 Couderc"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "1616 Couderc"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "196-17 Castel"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "216-3 Castel"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "3309 Couderc"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "333 Ecole de Montpellier"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "34 Ecole de Montpellier"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "4010 Castel"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "41 B Millardet et de Grasset"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "420 A Millardet et de Grasset"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "44-53 Malegue"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Kober 5 B B."
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "99 Richter"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Abondant B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Abouriou N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Admirable De Courtiller B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Agiorgitiko N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Aladin N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Aleatico N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Aledo B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Alicante Henri Bouschet N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Aligote B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Alphonse Lavallee N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin",
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Altesse B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Alval N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Alvarinho B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Alvina N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Amandin B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Aramon Blanc B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Aramon Gris G"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Grise"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Aramon N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Aranel B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Arbane B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Arinarnoa N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Arriloba B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Arrouya N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Arrufiac B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Artaban N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Hybride"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Arvine B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Assyrtiko B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Attiki N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Aubin B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Aubin Vert B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Aubun N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Autumn Royal N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Auxerrois B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Bachet N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Baco Blanc B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Hybride"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Barbaroux Rs"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Rose"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Barbera N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Baroque B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Berlandieri-Colombard 2"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Beaugaray N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Beclan N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Belair N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Bequignol N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Bia Blanc B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Biancu Gentile B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Binova"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Blanc Dame B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Borner"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Bouchales N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Bouillet N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Bouquettraube B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Bourboulenc B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Bouysselet B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Brachet N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Brun Argente N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Brun Fourca N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Cabernet Franc N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Cabernet-Sauvignon N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Cabestrel N (= 68-11)"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Calabrese N (= Nero D'Avola)"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Caladoc N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Calitor N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Camaralet De Lasseube B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Candin B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Canner Seedless B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Caralicante N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Jus"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Carcajolo Blanc B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Carcajolo N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Cardinal Rg"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Rouge"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin",
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Carignan Blanc B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Carignan Gris G"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Grise"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Carignan N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Carla N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Carmenere N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Carubis N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Hybride"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Jus"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Castets N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Centennial Seedless B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Cesar N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Chambourcin N (=Joannes Seyve 26205)"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Hybride"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Chardonnay B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Chardonnay Rose Rs"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Rose"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Chasan B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Chasselas B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin",
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Chasselas Cioutat B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Chasselas Muscat B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Chasselas Rose Rs"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Rose"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin",
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Chatus N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Chenanson N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Chenin B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Chouchillon B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Cinsaut N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Clairette B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin",
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Clairette Rose Rs"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Rose"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin",
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Clarin B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Claverie B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Codivarta B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Colobel N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Hybride"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Colombard B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Colombaud B (= Bouteillan Blanc)"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Corbeau N (= Douce Noire)"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Cot N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Couderc"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Couderc Noir N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Hybride"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Counoise N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Courbu B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Courbu Noir N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Couston N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Crouchen B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Dabouki B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Danam B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Danlas B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin",
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Danuta B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Datal B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Dattier De Beyrouth B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Delhro N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Dolcetto N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Duras N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Dureza N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Durif N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Egiodola N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Ekigaina N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Elbling B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Etraire De La Dui N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Evita Blanche B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Hybride"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Exalta B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Table"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Fanny B"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Hybride"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Blanche"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Certifié"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Farelia = Seibel 10096"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Hybride"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Jus"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Fer N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Fercal"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Porte-greffe"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Ferradou N (= 83.81)"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "Feteasca Neagra N"
+                },
+                "category": {
+                    "@type": "Text",
+                    "label": "Catégorie",
+                    "value": "Variété"
+                },
+                "color": {
+                    "@type": "Text",
+                    "label": "Couleur",
+                    "value": "Noire"
+                },
+                "utilities": {
+                    "@type": "List",
+                    "label": "Usages",
+                    "values": [
+                        "Vin"
+                    ]
+                }
+            }
+        ]
+    },
+    "credit": {
+        "provider": {
+            "@type": "Text",
+            "label": "Fournisseur",
+            "value": "FranceAgriMer"
+        },
+        "website": {
+            "@type": "Link",
+            "label": "credits_website",
+            "value": "https://www.franceagrimer.fr/filieres-Vin-et-cidre/Vin/Accompagn&hellip;",
+            "icon": "/public/icons/link.svg",
+            "method": "GET",
+            "href": "https://www.franceagrimer.fr/filieres-Vin-et-cidre/Vin/Accompagner/Dispositifs-par-filiere/Normalisation-Qualite/Bois-et-plants-de-vigne/Catalogue-officiel-des-varietes-de-vigne"
+        },
+        "date": {
+            "@type": "Date",
+            "label": "credits_date",
+            "value": "19/10/2020",
+            "iso": "2020-10-19T00:00:00.000Z"
+        },
+        "license": {
+            "@type": "Link",
+            "label": "Licence",
+            "value": "NC-BY-SA 4.0",
+            "icon": "/public/icons/scroll.svg",
+            "method": "GET",
+            "href": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+        }
+    },
+    "items-per-page": 150,
+    "items-count": 150,
+    "items-total": 416,
+    "page": 1,
+    "total-pages": 3,
+    "pages": [
+        {
+            "@type": "Link",
+            "value": "1",
+            "method": "GET",
+            "href": "/viticulture/vine-varieties.json?page=1"
+        },
+        {
+            "@type": "Link",
+            "value": "2",
+            "method": "GET",
+            "href": "/viticulture/vine-varieties.json?page=2"
+        },
+        {
+            "@type": "Link",
+            "value": "3",
+            "method": "GET",
+            "href": "/viticulture/vine-varieties.json?page=3"
+        }
+    ],
+    "navigation": {
+        "next-page": {
+            "@type": "Link",
+            "value": "Page suivante",
+            "method": "GET",
+            "href": "/viticulture/vine-varieties.json?page=2"
+        },
+        "last-page": {
+            "@type": "Link",
+            "value": "3",
+            "method": "GET",
+            "href": "/viticulture/vine-varieties.json?page=3"
+        }
+    },
+    "formats": {
+        "html": {
+            "@type": "Link",
+            "value": "HTML",
+            "method": "GET",
+            "href": "/viticulture/vine-varieties"
+        },
+        "json": {
+            "@type": "Link",
+            "value": "JSON",
+            "method": "GET",
+            "href": "/viticulture/vine-varieties.json"
+        },
+        "csv": {
+            "@type": "Link",
+            "value": "CSV",
+            "method": "GET",
+            "href": "/viticulture/vine-varieties.csv"
+        }
+    }
+}

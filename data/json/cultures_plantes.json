@@ -1,0 +1,738 @@
+{
+    "@id": "http://lexicon.osfarm.org/production/productions.json?family=plant_farming&usage=plant",
+    "title": "Productions",
+    "breadcrumbs": [
+        {
+            "@type": "Link",
+            "value": "Accueil",
+            "method": "GET",
+            "href": "/"
+        },
+        {
+            "@type": "Link",
+            "value": "Production",
+            "method": "GET",
+            "href": "/production"
+        }
+    ],
+    "form": {
+        "family": {
+            "@type": "Select",
+            "label": "Famille d'activités",
+            "required": false,
+            "options": {
+                "administering": "Administration",
+                "plant_farming": "Culture de plantes",
+                "animal_farming": "Élevage",
+                "service_delivering": "Prestations de service",
+                "tool_maintaining": "Entretien d'outils",
+                "processing": "Transformation",
+                "vine_farming": "Viticulture",
+                "wine_making": "Vinification"
+            },
+            "defaultValue": "plant_farming"
+        },
+        "usage": {
+            "@type": "Select",
+            "label": "Usage",
+            "required": false,
+            "options": {
+                "fodder": "Fourrage",
+                "fruit": "Fruits",
+                "plant": "Plantes",
+                "grain": "Grain",
+                "vegetable": "Légumes",
+                "flower": "Fleurs",
+                "meat": "Viande",
+                "meadow": "Prairie",
+                "milk": "Lait",
+                "seed": "Semences"
+            },
+            "defaultValue": "plant"
+        }
+    },
+    "table": {
+        "columns": {
+            "name": "Nom",
+            "family": "Famille d'activités",
+            "usage": "Usage"
+        },
+        "rows": [
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Angélique"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Plante ornementale et PPAM annuelle"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Basilic"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Bugle rampant"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Bardane"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Cerfeuil"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Ciboulette"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Coton"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Production végétale"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Aneth"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Eucalyptus"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Lin fibres"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Gaillet"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Chanvre"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Mélisse"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Chardon Marie"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Marjolaine"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Menthe"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Miscanthus"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Ortie"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Origan"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Persil"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Plante ornementale et PPAM pérenne"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Pourpier"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Romarin"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Sauge"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Sariette"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Oseille"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Véronique"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Canne à sucre"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Estragon"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Thym"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Tabac"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Curcuma"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Valériane"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "reference_name",
+                    "value": "Vétiver"
+                },
+                "family": {
+                    "@type": "Text",
+                    "label": "Famille d'activités",
+                    "value": "Culture de plantes"
+                },
+                "usage": {
+                    "@type": "Text",
+                    "label": "Usage",
+                    "value": "Plantes"
+                }
+            }
+        ]
+    },
+    "credit": {
+        "provider": {
+            "@type": "Text",
+            "label": "Fournisseur",
+            "value": "Ekylibre SAS"
+        },
+        "website": {
+            "@type": "Link",
+            "label": "credits_website",
+            "value": "https://ekylibre.com",
+            "icon": "/public/icons/link.svg",
+            "method": "GET",
+            "href": "https://ekylibre.com"
+        },
+        "date": {
+            "@type": "Date",
+            "label": "credits_date",
+            "value": "10/09/2021",
+            "iso": "2021-09-10T00:00:00.000Z"
+        },
+        "license": {
+            "@type": "Link",
+            "label": "Licence",
+            "value": "CC-BY-SA 4.0",
+            "icon": "/public/icons/scroll.svg",
+            "method": "GET",
+            "href": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr"
+        }
+    },
+    "items-per-page": 150,
+    "items-count": 36,
+    "items-total": 36,
+    "page": 1,
+    "total-pages": 1,
+    "pages": [
+        {
+            "@type": "Link",
+            "value": "1",
+            "method": "GET",
+            "href": "/production/productions.json?family=plant_farming&usage=plant&page=1"
+        }
+    ],
+    "navigation": {},
+    "formats": {
+        "html": {
+            "@type": "Link",
+            "value": "HTML",
+            "method": "GET",
+            "href": "/production/productions?family=plant_farming&usage=plant"
+        },
+        "json": {
+            "@type": "Link",
+            "value": "JSON",
+            "method": "GET",
+            "href": "/production/productions.json?family=plant_farming&usage=plant"
+        },
+        "csv": {
+            "@type": "Link",
+            "value": "CSV",
+            "method": "GET",
+            "href": "/production/productions.csv?family=plant_farming&usage=plant"
+        }
+    }
+}

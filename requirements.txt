@@ -1,0 +1,15 @@
+# requirements.txt
+fastapi
+uvicorn[standard]
+python-multipart
+openai>=1.0.0
+chromadb
+PyPDF2
+python-docx
+tiktoken
+numpy
+pydantic
+torch
+whisper 
+PyPDF2
+python-docx 

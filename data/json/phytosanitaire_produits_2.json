@@ -1,0 +1,4596 @@
+{
+    "@id": "http://lexicon.osfarm.org/phytosanitary/products.json?page=2",
+    "title": "Produits",
+    "breadcrumbs": [
+        {
+            "@type": "Link",
+            "value": "Accueil",
+            "method": "GET",
+            "href": "/"
+        },
+        {
+            "@type": "Link",
+            "value": "Phytosanitaire",
+            "method": "GET",
+            "href": "/phytosanitary"
+        }
+    ],
+    "form": {
+        "type": {
+            "@type": "Select",
+            "label": "Type",
+            "options": {
+                "PPP": "PPP",
+                "PCP": "PCP",
+                "ADJUVANT": "ADJUVANT"
+            },
+            "required": false
+        },
+        "state": {
+            "@type": "Select",
+            "label": "État",
+            "options": {
+                "inherited": "Hérité",
+                "withdrawn": "Retrait",
+                "authorized": "Autorisé"
+            },
+            "required": false
+        }
+    },
+    "table": {
+        "columns": {
+            "name": "Nom",
+            "firm": "Firme",
+            "type": "Type",
+            "active-compounds": "Principes actifs",
+            "state": "État d'usage"
+        },
+        "rows": [
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ACTRIL D"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SEDAGRI                       DEP.RHONE POULENC AG"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Ioxynil 160.0 g/L",
+                        "Mecoprop-P 360.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ACTRIL DS"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "RHODIAGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "2,4-D 600.0 g/L",
+                        "Ioxynil 100.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ACTRIL M"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "PHILAGRO"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Ioxynil 150.0 g/L",
+                        "Mecoprop 375.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ACTYGREF"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "FRANCO CONTINENTALE           DES LUBRIFIANTS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Acide 2,5-dichlorobenzoique 0.0040 %",
+                        "ZZZ_OLD_Oxyquinoleine 0.11 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ACUINEBE"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "DROGUERIE CENTRALE DU MIDI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Copper compounds 17.0 %",
+                        "Maneb 10.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ACUIVRE 50"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "DROGUERIE CENTRALE DU MIDI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Copper compounds 50.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ACYLON BLEU H"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "CIBA GEIGY"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Copper compounds 35.0 %",
+                        "Metalaxyl 15.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ACYLON P"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SYNGENTA FRANCE SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Maneb 58.7 %",
+                        "Metalaxyl 11.2 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ACYLON SOLUDOSE"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SYNGENTA FRANCE SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Folpet 51.0 %",
+                        "Metalaxyl 9.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ACYLON SUPER F AUTOSUSPENSIBLE"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "CIBA GEIGY"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Folpet 425.0 g/L",
+                        "Metalaxyl 75.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ACYLON SUPER FLO"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "CIBA GEIGY"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Folpet 283.0 g/L",
+                        "Metalaxyl 50.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ACYLON TABAC"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "CIBA GEIGY"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Maneb 50.0 %",
+                        "Metalaxyl 25.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ACYLON TC"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SYNGENTA FRANCE SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Maneb 50.0 %",
+                        "Metalaxyl 25.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ACYLON WP 60"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "CIBA GEIGY"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Folpet 51.0 %",
+                        "Metalaxyl 9.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ACYPALE"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "RIVALE"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Azoxystrobin 200.0 g/L",
+                        "Cyproconazole 80.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AD'HERBI"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SARL HMWC"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "ADJUVANT"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Triethanolamine 108.0 g/L",
+                        "Polymere complexe d'ethylene et de propylene 21.6 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADAC"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "MYRIAD"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Metaldehyde 5.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADAGE"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "BAYER SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Deltamethrin 5.0 g/L",
+                        "Pyrimicarbe 100.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADAGIO"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "PHYTEUROP"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Bentazone 480.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADAGIO SG"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "BASF FRANCE SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Bentazone 870.0 g/kg"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADAR"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "ADAMA FRANCE SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Alachlor 480.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADAR AM"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "ADAMA FRANCE SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Alachlor 480.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADDAX"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "INDOFIL INDUSTRIES (Netherlands) B.V."
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Mancozeb 80.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADDIT"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "KOPPERT FRANCE"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "ADJUVANT"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Rape seed oil 780.2 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADELIA EC"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SAGA SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Dimethenamid-P 200.0 g/L",
+                        "Metazachlor 200.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADENDA"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "COMPTOIR COMMERCIAL  DES LUBRIFIANTS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "ADJUVANT"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "esters méthyliques d'acides gras, C16-C18 et C18 insaturés (CAS N°67762-38-3) 831.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADENGO"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "BAYER SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Thiencarbazone 20.0 g/L",
+                        "Isoxaflutole 50.0 g/L",
+                        "Cyprosulfamide 33.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADENGO 315 SC"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "ASTEC EUROPE"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Cyprosulfamide 150.0 g/L",
+                        "Thiencarbazone 90.0 g/L",
+                        "Isoxaflutole 225.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADENGO 465 SC"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "UNISEM S.A"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Cyprosulfamide 150.0 g/L",
+                        "Thiencarbazone 90.0 g/L",
+                        "Isoxaflutole 225.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADENGO PIMP"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "PSI (UK) LTD"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Thiencarbazone 20.0 g/L",
+                        "Isoxaflutole 50.0 g/L",
+                        "Cyprosulfamide 33.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADENGO XTRA"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "BAYER SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Cyprosulfamide 150.0 g/L",
+                        "Thiencarbazone 90.0 g/L",
+                        "Isoxaflutole 225.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADERIO"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "GOWAN FRANCE"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Zoxamide 83.3 g/kg",
+                        "Mancozeb 667.0 g/kg"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADEXAR"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "BASF FRANCE SAS DIVISION AGRO "
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Fluxapyroxad 62.5 g/L",
+                        "Epoxiconazole 62.5 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADEXAR PIMP"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "PSI (UK) LTD"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Fluxapyroxad 62.5 g/L",
+                        "Epoxiconazole 62.5 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADEXILA"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "M. CAZORLA S.L"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Fluxapyroxad 62.5 g/L",
+                        "Epoxiconazole 62.5 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADHERBE"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "ATLAS INTERLATES LTD          FRASER ROAD"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "ADJUVANT"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Huile minerale paraffinique 732.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADHESOL"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AGREVO FRANCE S.A."
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "ADJUVANT"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Mouillant 100.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIA VERSE"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TRADI AGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Chlorure de chlorocholine 460.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIA VERSE C5"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TRADI AGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Chlormequat 460.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIABRON 60"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TRADI AGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Neburon 60.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIAFIX F"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TRADI AGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Copper compounds 7.0 %",
+                        "Copper compounds 5.0 %",
+                        "Folpet 25.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIAFIX M"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TRADI AGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Copper compounds 17.0 %",
+                        "Maneb 10.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIAKAR 250"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TRADI AGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Dicofol 250.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIALIM JARDIN"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "PHYTEUROP"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Metaldehyde 5.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIALINE 750 LIQUIDE"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TRADI AGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Gamma-HCH 750.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIALINE 90"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TRADI AGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Gamma-HCH 90.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIAMIX P 20"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TRADI AGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Thiram 10.0 %",
+                        "Zineb 10.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIANEBE 80 WP"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TRADI AGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Maneb 80.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIAPAM 510"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TRADI AGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Metam 510.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIAPEL 50"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TRADI AGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Folpet 50.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIAPON 85"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TRADI AGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Dalapon 85.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIATRA LIQUIDE"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TRADI AGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Atrazine 500.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIATRA SUPER"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TRADI AGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Atrazine 250.0 g/L",
+                        "Simazine 250.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIGOR"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SYNGENTA FRANCE S.A."
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "ADJUVANT"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Huile de colza esterifiee 440.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIRALPHA"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "A.D.I.R.H."
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Alpha-Cypermethrin 100.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIRCYF"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "A.D.I.R.H."
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Fludioxonil 250.0 g/kg",
+                        "Cyprodinil 375.0 g/kg"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIRPEN"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "A.D.I.R.H."
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Pendimethalin 400.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADIRTEB"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "A.D.I.R.H."
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Tebuconazole 250.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADJUST"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TAMINCO BV"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Chlormequat 460.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADJUSTAR"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SARL HMWC"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "ADJUVANT"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Dimethyl polysiloxane 200.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADJUVANT DHAI"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "BAYER SAS (ENVIRONMENTAL)"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "ADJUVANT"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Huiles blanches de petrole 849.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADJUVANT VR"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "PROCIDA /ROUSSEL UCLAF        DIV AGROVET HOMOLOG"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "ADJUVANT"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Huile minerale paraffinique 779.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADMIRAL"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "PHILAGRO"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Pyriproxyfen 100.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADMIRAL PRO"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "PHILAGRO France"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Pyriproxyfen 100.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADRET"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "BAYER SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Amidosulfuron 75.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADRET VIT"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "BAYER SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Amidosulfuron 750.0 g/kg"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADSEE AB 650"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SOCIETE DE DISTRIBUTION ET DE PRESTATION DE SERVICES"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "ADJUVANT"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Polysorbate 20 50.0 %",
+                        "Polymere d'amine gras 50.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADURIZ"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "EUROFYTO SA"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Cyprosulfamide 150.0 g/L",
+                        "Thiencarbazone 90.0 g/L",
+                        "Isoxaflutole 225.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADVENTOX"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "Evergreen Garden Care France SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Chlorates 67.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "ADVENTOX TOTAL"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "Evergreen Garden Care France SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Chlorates 68.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AEROFOS"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SABO FRANCE"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Composition complexe"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AEROSOL CICATRISANT AU GOUDRON DE PIN DES LANDES"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "B. NAVARRE"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Goudron de pin 375.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFAENA"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "ADAMA FRANCE SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Clomazone 360.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFAENA 360 CS"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "ADAMA FRANCE SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Clomazone 360.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFALON"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "FRANCAISE HOECHST"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Linuron 50.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFALON 50 L"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "ADAMA FRANCE SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Linuron 450.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFALON PM"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "ADAMA FRANCE SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Linuron 50.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFALON SPECIAL"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "FRANCAISE HOECHST"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Linuron 23.8 %",
+                        "Monolinuron 23.8 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFALON SPECIAL PM"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "BAYER SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Linuron 23.75 %",
+                        "Monolinuron 23.75 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFALON.DISPERSION"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "FRANCAISE HOECHST"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Linuron 450.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFEFLOR POUDRE"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AFEPASA (AZUFRERA Y FERTILIZANTES PALLARES SA)"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Sulphur 95.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFEFLUID VENTILE SUPER"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AFEPASA (AZUFRERA Y FERTILIZANTES PALLARES SA)"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Sulphur 950.0 g/kg"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFESOUFRE VENTILE 98.5"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AFEPASA (AZUFRERA Y FERTILIZANTES PALLARES SA)"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Sulphur 985.0 g/kg"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFESUL LIQUIDE 800 SUPER MICRONISE"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AFEPASA (AZUFRERA Y FERTILIZANTES PALLARES SA)"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Sulphur 800.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFFECT"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "CERIENCE"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "ADJUVANT"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Polymere d'amine gras 50.0 %",
+                        "Polysorbate 20 50.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFFINITY"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "FMC CHEMICAL SPRL"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Isoproturon 500.0 g/L",
+                        "Carfentrazone-ethyl 7.5 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFFIRM"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SYNGENTA FRANCE S.A."
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Emamectin 9.5 g/kg"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFFIRM OPTI"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SYNGENTA FRANCE S.A."
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Emamectin 9.5 g/kg"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFFUT"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SYNGENTA AGRO S.A.S."
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Metaldehyde 5.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFFUT RB"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "DE SANGOSSE S.A.S"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Metaldehyde 5.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFFUT RG"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "DE SANGOSSE S.A.S"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Metaldehyde 5.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFIDEX"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SCAC FISONS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Deltamethrin 2.5 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFIKILL"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TOP SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Flonicamid 500.0 g/kg"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFUGAN"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "FRANCAISE HOECHST"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Pyrazophos 295.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AFUGAN CE"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "BAYER SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Pyrazophos 295.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGENACOR"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SIMAGRO Trade EOOD"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Chlorantraniliprole 200.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGERZOL 1000"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AGREVO FRANCE S.A."
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "2,4-D 720.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGERZOL 724 B"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "PROCIDA /ROUSSEL UCLAF        DIV AGROVET HOMOLOG"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "2,4-D 700.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGGROCAL"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "CFPI AGRO"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "2,4-D 32.0 g/L",
+                        "2,4-DB 32.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGI BROUSSAILLE EV"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AGRIPHAR SA"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "2,4-D 93.0 g/L",
+                        "Trichlopyr 103.6 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGI GAZON EV"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AGRIPHAR SA"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Dicamba 18.0 g/L",
+                        "Mecoprop 250.0 g/L",
+                        "MCPA 250.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGI TOTAL DG"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "EVADIS SARL"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Diuron 125.0 g/L",
+                        "Glyphosate 200.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGIL"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "ADAMA FRANCE SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Propaquizafop 100.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGIL 240"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SYNGENTA AGRO S.A.S."
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Propaquizafop 240.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGIXA"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "CORTEVA AGRISCIENCE FRANCE S.A.S."
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Cyhalofop-butyl 160.0 g/L",
+                        "Florpyrauxifen-benzyl 12.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGLYPT"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "BAYER SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "DNOC 474.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGORA"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SYNGENTA FRANCE SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "ADJUVANT"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Huile minerale paraffinique 435.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRAL 90"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SYNGENTA FRANCE SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "ADJUVANT"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Nonylphenol polyethoxyle 945.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGREE 50 WG"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "MITSUI AGRISCIENCE INTERNATIONAL S.A./N.V"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Bacillus thuringiensis subsp. Aizawai strain GC-91 228.5 g/kg"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGREEN 5"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "CHEMICAL CONTINENTAL INDUSTRIES"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Amitrole 80.0 g/L",
+                        "Atrazine 80.0 g/L",
+                        "Diuron 160.0 g/L",
+                        "Simazine 80.0 g/L",
+                        "Ammonium thiocyanate 71.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGREEN CONTROL"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "Evergreen Garden Care France SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Glyphosate 170.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGREEN CONTROL D"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "Evergreen Garden Care France SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Glyphosate 7.2 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGREEN G 5"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "CHEMICAL CONTINENTAL INDUSTRIES"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Amitrole 0.8 %",
+                        "Atrazine 0.8 %",
+                        "Diuron 1.6 %",
+                        "Simazine 0.8 %",
+                        "Thiocyanate de sodium 0.7 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGREEN-G-91"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "CHEMICAL CONTINENTAL INDUSTRIES"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Amitrole 0.85 %",
+                        "Atrazine 0.4 %",
+                        "Diuron 2.13 %",
+                        "Simazine 0.8 %",
+                        "Thiocyanate de sodium 0.7 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGREEN-L-91"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "CHEMICAL CONTINENTAL INDUSTRIES"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Amitrole 85.0 g/L",
+                        "Atrazine 40.0 g/L",
+                        "Diuron 213.0 g/L",
+                        "Simazine 80.0 g/L",
+                        "Ammonium thiocyanate 76.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRI 2000"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SAPHYR"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Rotenone 66.6 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRI 2001"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SAPHYR"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Rotenone 66.6 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRI 2002"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SAPHYR"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Rotenone 66.6 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRI 2003"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SAPHYR"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Rotenone 1.0 g"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRI 2003 POUDRAGE"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SAPHYR"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Rotenone 1.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRI 2005"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SAPHYR"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Rotenone 2.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRI 2006"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SAPHYR"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Rotenone 5.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRI-DELAN"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AGRICANIGOU SARL"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Dithianon 125.0 g/L",
+                        "Potassium phosphonates 561.2 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRI-GIB"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "CEQUISA"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Gibberellic acid 9.9 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRI-GRAPHOLITA"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AGRICANIGOU SARL"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Straight Chain Lepidopteran Pheromones 98.1 g/kg"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRI-LOB"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AGRICANIGOU SARL"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Straight Chain Lepidopteran Pheromones 210.0 mg/diffuseur"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRI-TURA"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "LABORATOIRES CEETAL"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Chlorophacinone 0.075 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRIBACTYL"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "S C P A"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Lactobacillus plantarum 10.0 10 EXP 11 UFC/KG",
+                        "Streptococcus faecium 2.0 10 EXP 11 UFC/KG"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRIBACTYL PM"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "S C P A"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Lactobacillus plantarum 3.0 10 EXP 13 UFC/KG",
+                        "Streptococcus faecium 60.0 10 EXP 11 UFC/KG"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRIBOUILLIE 80"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SOCIETE NOUVELLE SUDAGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Copper compounds 20.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRICHEM MECOPROP-P 600 SL"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AGRICHEM BV"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Mecoprop-P 600.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRICHEM METAMITRONE WG"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "UPL EUROPE LTD"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Metamitron 700.0 g/kg"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Autorisé"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRICUIVRE 50"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SOCIETE NOUVELLE SUDAGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Copper compounds 50.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRICUPRYL"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SOCIETE NOUVELLE SUDAGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Copper compounds 17.0 %",
+                        "Maneb 10.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRICUPRYL Z"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SUDAGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Copper compounds 18.0 %",
+                        "Zineb 6.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRIGUARD ETHOFUMESATE 200"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AGRIGUARD LIMITED"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Ethofumesate 200.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRIHERB"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AGRICANIGOU SARL"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Glufosinate 150.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRIJET 200"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "TRADI AGRI"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Ethofumesate 200.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRIKAR LIQUIDE"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "DOW AGROSCIENCES SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Dinocap 350.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRILAN SC"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AGRICANIGOU SARL"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Dithianon 500.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRILECTUS"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AGRICANIGOU SARL"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Fenpyrazamine 500.0 g/kg"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRILIMACE"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "DE SANGOSSE S.A.S"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Metaldehyde 5.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRILUCER"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AGRICANIGOU SARL"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Imazamox 40.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRIMEC"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SYNGENTA FRANCE SAS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Abamectin 18.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRIMIN"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AGRICANIGOU SARL"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Cycloxydim 100.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRIMIN BG"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AGRICANIGOU SARL"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Cycloxydim 100.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRIMIRA"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AGRICANIGOU SARL"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PCP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Azoxystrobin 250.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Hérité"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRINET REPULSIF TAUPES"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "NEODIS"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Bone Oil 30.0 %"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRIPAX"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "SOFDA"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "MCPA 400.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            },
+            {
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "AGRIPLEX BEET 200"
+                },
+                "firm": {
+                    "@type": "Text",
+                    "label": "phytosanitary_product_firm",
+                    "value": "AGRIPLEX"
+                },
+                "type": {
+                    "@type": "Text",
+                    "label": "Type",
+                    "value": "PPP"
+                },
+                "active-compounds": {
+                    "@type": "List",
+                    "label": "Principes actifs",
+                    "values": [
+                        "Ethofumesate 200.0 g/L"
+                    ]
+                },
+                "state": {
+                    "@type": "Text",
+                    "label": "État d'usage",
+                    "value": "Retrait"
+                }
+            }
+        ]
+    },
+    "credit": {
+        "provider": {
+            "@type": "Text",
+            "label": "Fournisseur",
+            "value": "ANSES"
+        },
+        "website": {
+            "@type": "Link",
+            "label": "credits_website",
+            "value": "https://www.data.gouv.fr/fr/datasets/donnees-ouvertes-du-catalog&hellip;",
+            "icon": "/public/icons/link.svg",
+            "method": "GET",
+            "href": "https://www.data.gouv.fr/fr/datasets/donnees-ouvertes-du-catalogue-e-phy-des-produits-phytopharmaceutiques-matieres-fertilisantes-et-supports-de-culture-adjuvants-produits-mixtes-et-melanges/"
+        },
+        "date": {
+            "@type": "Date",
+            "label": "credits_date",
+            "value": "20/05/2025",
+            "iso": "2025-05-20T00:00:00.000Z"
+        },
+        "license": {
+            "@type": "Link",
+            "label": "Licence",
+            "value": "Open Licence",
+            "icon": "/public/icons/scroll.svg",
+            "method": "GET",
+            "href": "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+        }
+    },
+    "items-per-page": 150,
+    "items-count": 150,
+    "items-total": 15940,
+    "page": 2,
+    "total-pages": 107,
+    "pages": [
+        {
+            "@type": "Link",
+            "value": "1",
+            "method": "GET",
+            "href": "/phytosanitary/products.json?page=1"
+        },
+        {
+            "@type": "Link",
+            "value": "2",
+            "method": "GET",
+            "href": "/phytosanitary/products.json?page=2"
+        },
+        {
+            "@type": "Link",
+            "value": "3",
+            "method": "GET",
+            "href": "/phytosanitary/products.json?page=3"
+        },
+        {
+            "@type": "Link",
+            "value": "4",
+            "method": "GET",
+            "href": "/phytosanitary/products.json?page=4"
+        },
+        {
+            "@type": "Link",
+            "value": "5",
+            "method": "GET",
+            "href": "/phytosanitary/products.json?page=5"
+        },
+        {
+            "@type": "Link",
+            "value": "6",
+            "method": "GET",
+            "href": "/phytosanitary/products.json?page=6"
+        },
+        {
+            "@type": "Link",
+            "value": "7",
+            "method": "GET",
+            "href": "/phytosanitary/products.json?page=7"
+        }
+    ],
+    "navigation": {
+        "first-page": {
+            "@type": "Link",
+            "value": "1",
+            "method": "GET",
+            "href": "/phytosanitary/products.json?page=1"
+        },
+        "previous-page": {
+            "@type": "Link",
+            "value": "Page précédente",
+            "method": "GET",
+            "href": "/phytosanitary/products.json?page=1"
+        },
+        "next-page": {
+            "@type": "Link",
+            "value": "Page suivante",
+            "method": "GET",
+            "href": "/phytosanitary/products.json?page=3"
+        },
+        "last-page": {
+            "@type": "Link",
+            "value": "107",
+            "method": "GET",
+            "href": "/phytosanitary/products.json?page=107"
+        }
+    },
+    "formats": {
+        "html": {
+            "@type": "Link",
+            "value": "HTML",
+            "method": "GET",
+            "href": "/phytosanitary/products?page=2"
+        },
+        "json": {
+            "@type": "Link",
+            "value": "JSON",
+            "method": "GET",
+            "href": "/phytosanitary/products.json?page=2"
+        },
+        "csv": {
+            "@type": "Link",
+            "value": "CSV",
+            "method": "GET",
+            "href": "/phytosanitary/products.csv?page=2"
+        }
+    }
+}

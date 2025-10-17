@@ -1,0 +1,3134 @@
+{
+    "@id": "http://lexicon.osfarm.org/seeds/varieties.json",
+    "title": "Variétés",
+    "breadcrumbs": [
+        {
+            "@type": "Link",
+            "value": "Accueil",
+            "method": "GET",
+            "href": "/"
+        },
+        {
+            "@type": "Link",
+            "value": "Semences",
+            "method": "GET",
+            "href": "/seeds"
+        }
+    ],
+    "form": {
+        "species": {
+            "@type": "Text",
+            "label": "Espèce",
+            "required": false
+        }
+    },
+    "table": {
+        "columns": {
+            "code": "Code SEMAE",
+            "species": "Espèce",
+            "variety": "Variété",
+            "registration_date": "Date d'inscription"
+        },
+        "rows": [
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500017"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AIL DU NORD"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/07/2001",
+                    "iso": "2001-07-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500057"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARNO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "15/08/2001",
+                    "iso": "2001-08-15T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500084"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AULXITO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "28/09/2012",
+                    "iso": "2012-09-28T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500072"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BALTOR"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500038"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CLEDOR"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "26/08/1997",
+                    "iso": "1997-08-26T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500014"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CORAIL"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "22/09/1992",
+                    "iso": "1992-09-22T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500006"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CRISTO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "22/09/1992",
+                    "iso": "1992-09-22T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500059"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DARIO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "30/01/2003",
+                    "iso": "2003-01-30T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500041"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "EDENROSE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "11/07/1999",
+                    "iso": "1999-07-11T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500040"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "FLAVOR"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "11/07/1999",
+                    "iso": "1999-07-11T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500016"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GAYANT"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "22/09/1992",
+                    "iso": "1992-09-22T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500003"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GERMIDOUR"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "20/06/1991",
+                    "iso": "1991-06-20T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500020"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GOULUROSE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/08/1994",
+                    "iso": "1994-08-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500019"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "IBEROSE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/08/1994",
+                    "iso": "1994-08-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500046"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "JARDIROSE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "13/05/2001",
+                    "iso": "2001-05-13T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500009"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "JOLIMONT"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "22/09/1992",
+                    "iso": "1992-09-22T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500064"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "MESSIDOR"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "13/12/2006",
+                    "iso": "2006-12-13T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500001"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "MESSIDROME"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "20/06/1991",
+                    "iso": "1991-06-20T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500007"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "MOULINOR"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "22/09/1992",
+                    "iso": "1992-09-22T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500099"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "NEVASEM"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "24/05/2024",
+                    "iso": "2024-05-24T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500100"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ORISEM"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "24/05/2024",
+                    "iso": "2024-05-24T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500074"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "PARADOUR"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "17/04/2009",
+                    "iso": "2009-04-17T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500101"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "PINKYSEM"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "24/05/2024",
+                    "iso": "2024-05-24T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500036"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "PRIMOR"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "07/05/1997",
+                    "iso": "1997-05-07T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500013"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "PRINTANOR"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "20/06/1991",
+                    "iso": "1991-06-20T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500012"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ROSE DE LAUTREC"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "20/06/1991",
+                    "iso": "1991-06-20T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500096"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RUSTISEM"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "03/04/2021",
+                    "iso": "2021-04-03T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500098"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RUSTISEM (BIS RADIE)"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "03/04/2021",
+                    "iso": "2021-04-03T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500060"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SABADROME"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "21/04/2002",
+                    "iso": "2002-04-21T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500093"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SABAGOLD"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "14/06/2014",
+                    "iso": "2014-06-14T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500015"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SPRINT"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "20/06/1991",
+                    "iso": "1991-06-20T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500021"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SULTOP"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "28/08/1994",
+                    "iso": "1994-08-28T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500065"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "THERADOR"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "23/06/2006",
+                    "iso": "2006-06-23T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500002"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "THERMIDROME"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "20/06/1991",
+                    "iso": "1991-06-20T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500082"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "TI ROUGE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "29/02/2008",
+                    "iso": "2008-02-29T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500078"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "TOPADROME"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "12/08/2011",
+                    "iso": "2011-08-12T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500087"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VACOA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "02/04/2010",
+                    "iso": "2010-04-02T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500071"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VALDOUR"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "23/06/2006",
+                    "iso": "2006-06-23T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500073"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VAYO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "14/06/2007",
+                    "iso": "2007-06-14T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500055"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VIGOR COMPLETE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "13/04/2000",
+                    "iso": "2000-04-13T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500034"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VIGOR SUPREME"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "06/05/1995",
+                    "iso": "1995-05-06T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2500081"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "AIL"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VIVALTO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "12/08/2011",
+                    "iso": "2011-08-12T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "0430001"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ALPISTE"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "LIZARD"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "1521001"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ARTICHAUT"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BLANC HYEROIS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "20/06/1991",
+                    "iso": "1991-06-20T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "1521018"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ARTICHAUT"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CALICO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/06/2008",
+                    "iso": "2008-06-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "1521002"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ARTICHAUT"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CAMUS DE BRETAGNE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "20/06/1991",
+                    "iso": "1991-06-20T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "1521022"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ARTICHAUT"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CARDINAL"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "31/03/2016",
+                    "iso": "2016-03-31T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "1521005"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ARTICHAUT"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CHRYSANTHEME"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "20/06/1991",
+                    "iso": "1991-06-20T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "1521017"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ARTICHAUT"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GROS VERT DE LAON"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "18/02/2000",
+                    "iso": "2000-02-18T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "1521006"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ARTICHAUT"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "PETRE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "20/06/1991",
+                    "iso": "1991-06-20T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "1521015"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ARTICHAUT"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "POPVERT"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/06/2008",
+                    "iso": "2008-06-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "1521007"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ARTICHAUT"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SALAMBO"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/06/2008",
+                    "iso": "2008-06-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "1521009"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ARTICHAUT"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VERT DE PROVENCE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "20/06/1991",
+                    "iso": "1991-06-20T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "1521011"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ARTICHAUT"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VIOLET DE PROVENCE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "20/06/1991",
+                    "iso": "1991-06-20T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650032"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ANGELA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/11/1995",
+                    "iso": "1995-11-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650166"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARGENTEUIL"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650024"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ARGENTEUIL HATIVE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/11/1995",
+                    "iso": "1995-11-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650151"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ASPALIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650162"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ATHOS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650038"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ATLAS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/11/1995",
+                    "iso": "1995-11-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650078"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "AVALIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650022"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BACKLIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650018"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BOONLIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650120"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BURGUNDINE"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650012"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CIPRES"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/11/1995",
+                    "iso": "1995-11-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650087"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CLARA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650110"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CUMULUS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650126"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "CYGNUS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650152"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DALEZA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650054"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DARBELLA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/08/2004",
+                    "iso": "2004-08-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650013"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DARBONNE NO 3"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650015"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DARIANA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/11/1995",
+                    "iso": "1995-11-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650055"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DARLISE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/08/2004",
+                    "iso": "2004-08-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650056"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DARSIANE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/08/2004",
+                    "iso": "2004-08-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650154"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DARVADOR"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650167"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DARZAN"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650155"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DARZILLA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "22/03/2011",
+                    "iso": "2011-03-22T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650099"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "EMMA (BIS RADIE)"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/06/2008",
+                    "iso": "2008-06-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650145"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ERASMUS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650158"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ERCOLE"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650071"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "EROS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650042"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "FILEAS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "13/04/1999",
+                    "iso": "1999-04-13T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650144"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "FINALUS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650134"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "FRUMLIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650017"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GIJNLIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650135"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GIOVE"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650073"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GLADIO"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650051"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GRANDE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "30/01/2003",
+                    "iso": "2003-01-30T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650041"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GROLIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650077"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "HERKOLIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650040"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "HORLIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650089"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "JACQ MA POURPRE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "23/06/2006",
+                    "iso": "2006-06-23T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650088"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "JULIA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650147"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "K-2118"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650007"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "LARAC"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/11/1995",
+                    "iso": "1995-11-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650061"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "LIMA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "02/04/2010",
+                    "iso": "2010-04-02T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650090"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "LORELLA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "23/06/2006",
+                    "iso": "2006-06-23T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650119"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "MAGNUS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650163"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "MARALIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650095"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "MARTHE"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650153"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "MARY WASHINGTON"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650146"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "MAXLIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650084"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "MONDEO"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650127"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "MONTINA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650103"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "OBELISK"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "27/06/2008",
+                    "iso": "2008-06-27T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650043"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ORANE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "13/04/1999",
+                    "iso": "1999-04-13T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650164"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "PLACOSESP"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650142"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "PORTLIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650034"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "PREBELLE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/11/1995",
+                    "iso": "1995-11-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650085"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "PRIMAVERDE"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650070"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RAMADA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650086"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RAPSODY"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650136"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RASMUS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650049"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "RAVEL"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650128"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ROSALIE"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650143"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SEQUOIA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650010"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "STELINE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/11/1995",
+                    "iso": "1995-11-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650141"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SUNLIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650036"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "SUPER LORELLA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/11/1995",
+                    "iso": "1995-11-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650139"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "TERRALIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650020"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "THIELIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650138"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "V 54"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650037"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VALLIERES RACAUTS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/11/1995",
+                    "iso": "1995-11-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650023"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VENLIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650137"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VERDUS"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650109"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VITALIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650140"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VITTORIO"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650114"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "VOLTAIRE"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2650072"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (GRIFFES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ZENO"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000038"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ATLAS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/11/1995",
+                    "iso": "1995-11-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000022"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BACKLIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000069"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BLANCO DE NAVARRA"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000018"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BOONLIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000061"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "BURGUNDINE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "14/06/2014",
+                    "iso": "2014-06-14T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000054"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DARBELLA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/08/2004",
+                    "iso": "2004-08-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000013"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DARBONNE NO 3"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000015"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DARIANA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/11/1995",
+                    "iso": "1995-11-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000055"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DARLISE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/08/2004",
+                    "iso": "2004-08-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000056"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DARSIANE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/08/2004",
+                    "iso": "2004-08-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000068"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DARVADOR"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000050"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "DARZILLA"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "22/03/2011",
+                    "iso": "2011-03-22T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000042"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "FILEAS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "13/04/1999",
+                    "iso": "1999-04-13T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000017"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GIJNLIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000066"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GREENIC (BIS RADIE)"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "07/04/2020",
+                    "iso": "2020-04-07T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000067"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GREENOX (BIS RADIE)"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "07/04/2020",
+                    "iso": "2020-04-07T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000041"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "GROLIM"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000007"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "LARAC"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "10/11/1995",
+                    "iso": "1995-11-10T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000049"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "LIMA (BIS RADIE)"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "02/04/2010",
+                    "iso": "2010-04-02T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000043"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ORANE"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "13/04/1999",
+                    "iso": "1999-04-13T00:00:00.000Z"
+                }
+            },
+            {
+                "code": {
+                    "@type": "Text",
+                    "label": "Code SEMAE",
+                    "value": "2000048"
+                },
+                "species": {
+                    "@type": "Text",
+                    "label": "Espèce",
+                    "value": "ASPERGE (SEMENCES)"
+                },
+                "variety": {
+                    "@type": "Text",
+                    "label": "Variété",
+                    "value": "ORUS"
+                },
+                "registration_date": {
+                    "@type": "Date",
+                    "label": "Date d'inscription",
+                    "value": "13/05/2001",
+                    "iso": "2001-05-13T00:00:00.000Z"
+                }
+            }
+        ]
+    },
+    "credit": {
+        "provider": {
+            "@type": "Text",
+            "label": "Fournisseur",
+            "value": "SEMAE"
+        },
+        "website": {
+            "@type": "Link",
+            "label": "credits_website",
+            "value": "https://www.semae.fr/catalogue-varietes/base-varietes-gnis/",
+            "icon": "/public/icons/link.svg",
+            "method": "GET",
+            "href": "https://www.semae.fr/catalogue-varietes/base-varietes-gnis/"
+        },
+        "date": {
+            "@type": "Date",
+            "label": "credits_date",
+            "value": "26/01/2025",
+            "iso": "2025-01-26T00:00:00.000Z"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "@id": "http://lexicon.osfarm.org/weather/stations.json?country=&name=Marseille",
+    "title": "Stations météorologiques",
+    "breadcrumbs": [
+        {
+            "@type": "Link",
+            "value": "Accueil",
+            "method": "GET",
+            "href": "/"
+        },
+        {
+            "@type": "Link",
+            "value": "Météorologie",
+            "method": "GET",
+            "href": "/weather"
+        }
+    ],
+    "form": {
+        "country": {
+            "@type": "Select",
+            "label": "Pays",
+            "options": {
+                "FR": "France"
+            },
+            "required": false,
+            "defaultValue": ""
+        },
+        "name": {
+            "@type": "Text",
+            "label": "Nom",
+            "required": false,
+            "defaultValue": "Marseille"
+        }
+    },
+    "table": {
+        "columns": {
+            "country": "Pays",
+            "code": "Code station",
+            "name": "Nom",
+            "elevation": "Élévation",
+            "details": "Détails"
+        },
+        "rows": [
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "code": {
+                    "@type": "Text",
+                    "label": "Code station",
+                    "value": "13055001"
+                },
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "MARSEILLE-OBS"
+                },
+                "elevation": {
+                    "@type": "Number",
+                    "label": "Élévation",
+                    "value": 75,
+                    "unit": "m"
+                },
+                "details": {
+                    "@type": "Link",
+                    "label": "Relevés horaires",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/weather/stations/FR13055001"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "code": {
+                    "@type": "Text",
+                    "label": "Code station",
+                    "value": "13055029"
+                },
+                "name": {
+                    "@type": "Text",
+                    "label": "Nom",
+                    "value": "MARSEILLE"
+                },
+                "elevation": {
+                    "@type": "Number",
+                    "label": "Élévation",
+                    "value": 192,
+                    "unit": "m"
+                },
+                "details": {
+                    "@type": "Link",
+                    "label": "Relevés horaires",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/weather/stations/FR13055029"
+                }
+            }
+        ]
+    }
+}

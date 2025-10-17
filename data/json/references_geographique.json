@@ -1,0 +1,920 @@
+{
+    "@id": "http://lexicon.osfarm.org/geographical-references/municipalities.json?country=FR&city=Marseille",
+    "title": "Communes",
+    "breadcrumbs": [
+        {
+            "@type": "Link",
+            "value": "Accueil",
+            "method": "GET",
+            "href": "/"
+        },
+        {
+            "@type": "Link",
+            "value": "Références géographiques",
+            "method": "GET",
+            "href": "/geographical-references"
+        }
+    ],
+    "form": {
+        "country": {
+            "@type": "Select",
+            "label": "Pays",
+            "options": {
+                "FR": "France"
+            },
+            "required": false,
+            "defaultValue": "FR"
+        },
+        "city": {
+            "@type": "Text",
+            "label": "Ville",
+            "required": false,
+            "defaultValue": "Marseille"
+        }
+    },
+    "table": {
+        "columns": {
+            "country": "Pays",
+            "city": "Ville",
+            "city-code": "Code commune",
+            "postal-code": "Code postal",
+            "details": "Détails"
+        },
+        "rows": [
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 01"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13201"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13001"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13201_13001_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 02"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13202"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13002"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13202_13002_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 03"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13203"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13003"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13203_13003_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 04"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13204"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13004"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13204_13004_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 05"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13205"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13005"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13205_13005_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 06"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13206"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13006"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13206_13006_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 07"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13207"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13007"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13207_13007_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 08"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13208"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13008"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13208_13008_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 08"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13208"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13008"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13208_13008_MARSEI_CALLELONGUE"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 08"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13208"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13008"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13208_13008_MARSEI_LESGOUDES"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 09"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13209"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13009"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13209_13009_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 09"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13209"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13009"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13209_13009_MARSEI_LESBAUMETTES"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 09"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13209"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13009"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13209_13009_MARSEI_VAUFREGE"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 10"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13210"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13010"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13210_13010_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 11"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13211"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13011"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13211_13011_MARSEI_LAVALENTINE"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 11"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13211"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13011"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13211_13011_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 12"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13212"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13012"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13212_13012_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 13"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13213"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13013"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13213_13013_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 13"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13213"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13013"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13213_13013_MARSEI_CHATEAUGOMBE"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 13"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13213"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13013"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13213_13013_MARSEI_CROIXROUGE"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 13"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13213"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13013"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13213_13013_MARSEI_LABATARELLE"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 13"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13213"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13013"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13213_13013_MARSEI_LESOLIVES"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 13"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13213"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13013"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13213_13013_MARSEI_STMITRE"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 14"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13214"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13014"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13214_13014_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 15"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13215"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13015"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13215_13015_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 16"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13216"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13016"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13216_13016_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE 16"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "13216"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "13016"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/13216_13016_MARSEI_LESTAQUE"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLE EN BEAUVAISIS"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "60387"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "60690"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/60387_60690_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLES LES AUBIGNY"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "18139"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "18320"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/18139_18320_MARSEI_"
+                }
+            },
+            {
+                "country": {
+                    "@type": "Text",
+                    "label": "Pays",
+                    "value": "France"
+                },
+                "city": {
+                    "@type": "Text",
+                    "label": "Code postal",
+                    "value": "MARSEILLETTE"
+                },
+                "city-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_postal_code_code",
+                    "value": "11220"
+                },
+                "postal-code": {
+                    "@type": "Text",
+                    "label": "geographical_references_municipality_code",
+                    "value": "11800"
+                },
+                "details": {
+                    "@type": "Link",
+                    "value": "Voir",
+                    "method": "GET",
+                    "href": "/geographical-references/municipalities/11220_11800_MARSEI_"
+                }
+            }
+        ]
+    },
+    "items-per-page": 150,
+    "items-count": 30,
+    "items-total": 30,
+    "page": 1,
+    "total-pages": 1,
+    "pages": [
+        {
+            "@type": "Link",
+            "value": "1",
+            "method": "GET",
+            "href": "/geographical-references/municipalities.json?country=FR&city=Marseille&page=1"
+        }
+    ],
+    "navigation": {},
+    "formats": {
+        "html": {
+            "@type": "Link",
+            "value": "HTML",
+            "method": "GET",
+            "href": "/geographical-references/municipalities?country=FR&city=Marseille"
+        },
+        "json": {
+            "@type": "Link",
+            "value": "JSON",
+            "method": "GET",
+            "href": "/geographical-references/municipalities.json?country=FR&city=Marseille"
+        },
+        "csv": {
+            "@type": "Link",
+            "value": "CSV",
+            "method": "GET",
+            "href": "/geographical-references/municipalities.csv?country=FR&city=Marseille"
+        }
+    }
+}
