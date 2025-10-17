@@ -1,11 +1,15 @@
 version: "3.9"
 
+networks:
+  agrisense-network:
+    driver: bridge
+
 services:
   api:
     build: .
     container_name: agrisense_api
     ports:
-      - "8000:8000"
+      - "127.0.0.1:8000:8000"  # Bind only to localhost for security
     env_file:
       - .env
     volumes:
@@ -15,11 +19,16 @@ services:
     depends_on:
       - chromadb
     restart: always
+    networks:
+      - agrisense-network
 
   chromadb:
     image: chromadb/chroma:latest
     container_name: agrisense_chromadb
     ports:
-      - "8001:8001"
+      - "127.0.0.1:8001:8001"  # Bind only to localhost
     volumes:
       - ./chroma_data:/chroma/.chromadb
+    restart: always
+    networks:
+      - agrisense-network

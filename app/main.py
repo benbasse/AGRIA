@@ -26,6 +26,15 @@ rag = RAG(vm)
 UPLOAD_DIR = "./uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
+@app.get("/")
+def read_root():
+    return {"message": "Hello from AgriSense API 🚀"}
+
+@app.get("/health")
+async def health_check():
+    return {"status": "healthy"}
+
+
 @app.post("/upload-image")
 async def upload_image(
     use_case: str = Form(...),
