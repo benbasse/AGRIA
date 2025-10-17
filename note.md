@@ -14,3 +14,9 @@ Je vais utiliser un modele de vision par ordinateur pour detecter les parasites 
 En integrant la detection des parasites dans mon systeme, je peux aider a prevenir les problemes de croissance des plantes dus aux parasites et assurer une meilleure sante des plantes.
 
 ingprs01@gmail.com
+
+
+
+.env
+uploads/
+*.mp3
