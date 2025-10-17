@@ -1,21 +1,40 @@
 # app/main.py
 import os, uuid, logging
-from fastapi import FastAPI, UploadFile, File, Form, HTTPException
+from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Request
 from fastapi.responses import JSONResponse
-from dotenv import load_dotenv
-from app.vector_store import VectorStoreManager
-from app.rag import RAG
-import uuid, os, logging
-from fastapi import HTTPException
+from fastapi.exceptions import RequestValidationError
 from dotenv import load_dotenv
 import openai
+from app.vector_store import VectorStoreManager
+from app.rag import RAG
+from app.schemas import APIResponseSchema
 # from app.image_service import caption_image
 caption_image = None 
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
 load_dotenv()
 
 app = FastAPI(title="AgriSense Backend")
+
+# Gestionnaire d'erreurs de validation
+@app.exception_handler(RequestValidationError)
+async def validation_exception_handler(request: Request, exc: RequestValidationError):
+    logging.error(f"❌ Erreur de validation 422:")
+    logging.error(f"   URL: {request.url}")
+    logging.error(f"   Méthode: {request.method}")
+    logging.error(f"   Erreurs: {exc.errors()}")
+    logging.error(f"   Body: {exc.body}")
+    return JSONResponse(
+        status_code=422,
+        content={
+            "detail": exc.errors(),
+            "body": str(exc.body),
+            "message": "Erreur de validation - Vérifiez les paramètres de la requête"
+        }
+    )
 
 config = {
     "CHROMA_PERSIST_DIR": os.getenv("CHROMA_PERSIST_DIR", "./chroma_db")
@@ -35,12 +54,17 @@ async def health_check():
     return {"status": "healthy"}
 
 
-@app.post("/upload-image")
+@app.post("/upload-image", response_model=APIResponseSchema)
 async def upload_image(
     use_case: str = Form(...),
     file: UploadFile = File(...),
-    question: str | None = Form(None)  # <-- obligatoirement ajouté
+    question: str | None = Form(None)
 ):
+    """
+    Upload et analyse d'une image agricole.
+    Retourne un JSON strictement formaté selon le schéma APIResponseSchema.
+    """
+    logging.info(f"📥 Requête reçue - use_case: {use_case}, file: {file.filename if file else 'None'}, question: {question}")
     try:
         # --- Sauvegarde du fichier ---
         file_id = str(uuid.uuid4())
@@ -57,28 +81,55 @@ async def upload_image(
                 "Fournis les résultats sous format JSON structuré comme défini dans le prompt expert."
             )
 
-        # --- Appel du modèle ---
+        # --- Appel du modèle avec parsing robuste ---
         analysis = rag.ask(
             use_case=use_case,
             question=question,
             image_path=path
         )
-        caption = analysis["answer"]
+        
+        # L'objet 'answer' est déjà un dict validé par Pydantic
+        caption_dict = analysis["answer"]
+        
+        # Conversion en string JSON pour l'embedding
+        caption_str = str(caption_dict)
 
         # --- Ajout de l'embed dans Chroma ---
-        emb = rag.embed_text(caption)
-        vm.add_documents_chroma(
-            use_case,
-            [file_id],
-            [{"source": file.filename, "path": path}],
-            [caption],
-            [emb]
-        )
+        try:
+            emb = rag.embed_text(caption_str)
+            vm.add_documents_chroma(
+                use_case,
+                [file_id],
+                [{"source": file.filename, "path": path}],
+                [caption_str],
+                [emb]
+            )
+        except Exception as emb_error:
+            logging.warning(f"Erreur lors de l'embedding: {emb_error}")
 
-        return {"status": "ok", "caption": caption, "file_id": file_id}
+        # --- Validation finale avec Pydantic ---
+        response = APIResponseSchema(
+            status="ok",
+            caption=caption_dict,
+            file_id=file_id
+        )
+        
+        return response
 
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logging.error(f"Erreur dans /upload-image: {e}")
+        # Retourner une réponse de fallback valide même en cas d'erreur
+        from app.schemas import AnalyseAgricoleSchema
+        fallback = AnalyseAgricoleSchema(
+            niveau_confiance=0.0,
+            phenologie_actuelle=f"Erreur lors de l'analyse: {str(e)}",
+            sources_utilisees=["Système de fallback"]
+        )
+        return APIResponseSchema(
+            status="error",
+            caption=fallback,
+            file_id=None
+        )
 
 @app.post("/ask")
 async def ask(use_case: str = Form(...), question: str = Form(...)):

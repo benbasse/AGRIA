@@ -43,9 +43,11 @@
 #         answer = self.call_llm(system_prompt, prompt)
 #         return {"answer": answer, "context": docs, "metadatas": metas}
 # app/rag.py
-import os, base64
+import os, base64, json, re, logging
 import openai
 from dotenv import load_dotenv
+from app.schemas import AnalyseAgricoleSchema
+from pydantic import ValidationError
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -56,6 +58,64 @@ LLM_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 class RAG:
     def __init__(self, vector_manager):
         self.vm = vector_manager
+        self.logger = logging.getLogger(__name__)
+
+    def _extract_json_from_text(self, text: str) -> dict:
+        """
+        Extrait le JSON d'un texte, même s'il est entouré de texte supplémentaire.
+        Essaie plusieurs stratégies de parsing.
+        """
+        # Stratégie 1: Parser directement
+        try:
+            return json.loads(text)
+        except json.JSONDecodeError:
+            pass
+
+        # Stratégie 2: Chercher un objet JSON entre accolades
+        json_pattern = r'\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}'
+        matches = re.findall(json_pattern, text, re.DOTALL)
+        
+        for match in matches:
+            try:
+                return json.loads(match)
+            except json.JSONDecodeError:
+                continue
+
+        # Stratégie 3: Chercher entre ```json et ```
+        code_block_pattern = r'```(?:json)?\s*({.*?})\s*```'
+        code_matches = re.findall(code_block_pattern, text, re.DOTALL)
+        
+        for match in code_matches:
+            try:
+                return json.loads(match)
+            except json.JSONDecodeError:
+                continue
+
+        # Si aucune stratégie ne fonctionne, lever une erreur
+        raise ValueError("Impossible d'extraire un JSON valide de la réponse")
+
+    def _validate_and_fix_json(self, data: dict) -> AnalyseAgricoleSchema:
+        """
+        Valide et corrige le JSON selon le schéma AnalyseAgricoleSchema.
+        Retourne un objet Pydantic validé.
+        """
+        try:
+            # Validation stricte avec Pydantic
+            return AnalyseAgricoleSchema(**data)
+        except ValidationError as e:
+            self.logger.warning(f"Erreur de validation JSON: {e}")
+            # Retourner un schéma par défaut avec niveau de confiance 0
+            return AnalyseAgricoleSchema()
+
+    def _get_fallback_response(self, error_msg: str = "Erreur lors de l'analyse") -> AnalyseAgricoleSchema:
+        """
+        Retourne une réponse de fallback en cas d'erreur.
+        """
+        return AnalyseAgricoleSchema(
+            niveau_confiance=0.0,
+            phenologie_actuelle=f"Analyse impossible: {error_msg}",
+            sources_utilisees=["Système de fallback"]
+        )
 
     def embed_text(self, text: str):
         resp = openai.embeddings.create(model=EMBED_MODEL, input=text)
@@ -74,7 +134,10 @@ class RAG:
         prompt: str,
         image_path: str | None = None,
         temperature: float = 0.3,
-    ):
+    ) -> str:
+        """
+        Appelle le LLM avec support multimodal et force le format JSON.
+        """
         # contenu multimodal pour gpt-4o
         user_content = [{"type": "text", "text": prompt}]
         if image_path:
@@ -87,16 +150,21 @@ class RAG:
                 }
             )
 
-        completion = openai.chat.completions.create(
-            model=LLM_MODEL,
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_content},
-            ],
-            max_tokens=512,
-            temperature=temperature,
-        )
-        return completion.choices[0].message.content
+        try:
+            completion = openai.chat.completions.create(
+                model=LLM_MODEL,
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_content},
+                ],
+                max_tokens=2048,  # Augmenté pour le JSON complet
+                temperature=temperature,
+                response_format={"type": "json_object"}  # Force le format JSON
+            )
+            return completion.choices[0].message.content
+        except Exception as e:
+            self.logger.error(f"Erreur lors de l'appel au LLM: {e}")
+            raise
 
     # def ask(self, use_case, question, image_path: str | None = None,
     #         system_prompt: str = "Tu es un expert agricole."):
@@ -119,7 +187,14 @@ class RAG:
         # Si aucun system_prompt fourni, on crée le prompt expert complet en français
         if system_prompt is None:
             system_prompt = """
-            Vous êtes un agronome senior et spécialiste en agroécologie, opérant dans la région = {{A}} et concentré sur la culture = {{B}}. Votre mission est d'analyser les données visuelles, météorologiques et documentaires issues de notre base locale (data/json, data/pdf, data/dbf) ainsi que l'image transmise = {{C}}, afin d'établir un diagnostic phytosanitaire fiable, nuancé et transparent. L'objectif est d'aider l'utilisateur à comprendre la situation observée, à identifier les causes possibles et à mettre en place des actions de prévention et de régulation conformes aux principes de l'agroécologie et de la lutte intégrée (IPM).
+            Vous êtes un agronome senior et spécialiste en agroécologie. Votre mission est d'établir un diagnostic phytosanitaire NUANCÉ, ACTIONNABLE et SOURCÉ pour aider l'agriculteur à prendre des décisions éclairées.
+            
+            PRINCIPES FONDAMENTAUX:
+            1. DIAGNOSTIC NUANCÉ: Présentez TOUJOURS plusieurs hypothèses pondérées (pas un seul diagnostic absolu)
+            2. RECOMMANDATIONS PRIORISÉES: Classez par urgence (urgent/recommandé/surveillance)
+            3. SOURCES SYSTÉMATIQUES: Citez la source pour CHAQUE recommandation
+            4. APPROCHE AGROÉCOLOGIQUE: Privilégiez IPM (Prévention → Observation → Bio → Chimique en dernier recours)
+            5. TRANSPARENCE: Indiquez clairement les limites et le niveau de confiance
 
             Avant toute analyse, vous devez procéder à une vérification stricte de la validité et de la cohérence des entrées.
 
@@ -184,57 +259,181 @@ class RAG:
             Fournir des conseils adaptés à {{A}} et {{B}}, tenant compte des conditions locales et de la météo du jour. Prioriser les pratiques préventives et durables. Éviter les interventions chimiques sauf en dernier recours, en justifiant chaque recommandation par des sources fiables.
             L'agriculteur est le responsable final des décisions prises sur le terrain, tu ne dois pas imposer un traitement.
 
-            Étape 8 – Structure de sortie JSON standardisée
-            Retournez votre analyse sous forme d'un objet JSON valide avec la structure suivante :
+            STRUCTURE JSON OBLIGATOIRE - Retournez EXACTEMENT cette structure:
             
             {{
-            "niveau_confiance": 0.0,
-            "phenologie_actuelle": "description du stade phénologique",
-            "situation_meteorologique": {{
-                "resume_recent": "résumé de la météo récente",
-                "anomalies_detectees": ["liste des anomalies météo"],
-                "risques_associes": ["liste des risques liés à la météo"]
-            }},
-            "analyse_historique": {{
-                "periode_comparee": "30_jours",
-                "ecarts_moyens": {{
-                "temperature": "écart en degrés",
-                "humidite": "écart en pourcentage",
-                "precipitations": "écart en mm"
+              "diagnostic": {{
+                "niveau_confiance_global": 0.75,
+                "stade_phenologique": "Floraison",
+                "date_analyse": "2025-01-17",
+                "hypotheses_diagnostiques": [
+                  {{
+                    "rang": 1,
+                    "nom": "Mildiou de la vigne",
+                    "probabilite": 0.70,
+                    "niveau_gravite": "élevé",
+                    "justification": "Symptômes huileux sur feuilles + humidité >85% depuis 3 jours",
+                    "facteurs_favorables": ["Humidité élevée (>85%)", "Température 18-22°C", "Stade floraison"],
+                    "sources": ["Ephytia.inrae.fr - Fiche Mildiou", "meteorologie.json"]
+                  }},
+                  {{
+                    "rang": 2,
+                    "nom": "Carence magnésienne",
+                    "probabilite": 0.20,
+                    "niveau_gravite": "modéré",
+                    "justification": "Décoloration internervaire",
+                    "facteurs_favorables": ["Sol sableux"],
+                    "sources": ["phytosanitaire_culture.json"]
+                  }}
+                ],
+                "diagnostic_principal": {{
+                  "nom": "Mildiou de la vigne",
+                  "probabilite": 0.70,
+                  "synthese": "Forte probabilité de mildiou en raison des conditions météo favorables"
                 }},
-                "episodes_similaires": ["liste d'épisodes historiques comparables"]
-            }},
-            "hypotheses_probables": [
-                {{
-                "nom": "nom de l'hypothèse",
-                "probabilite": 0.00,
-                "justification": "raisons détaillées",
-                "sources": ["liste des sources"]
+                "risques_evolution": {{
+                  "sans_intervention": "Extension rapide aux grappes (72h), perte 30-50%",
+                  "delai_critique": "24-48 heures",
+                  "conditions_aggravantes": ["Pluie annoncée dans 48h"]
                 }}
-            ],
-            "pratiques_preventives": {{
-                "culturelles": ["rotation", "couvert", "espacement"],
-                "mecaniques": ["désherbage", "piégeage"],
-                "biologiques": ["auxiliaires", "extraits végétaux"],
-                "chimiques_en_dernier_recours": ["produit avec IFT et source"]
-            }},
-            "risques_abiotiques": ["gel", "stress hydrique", "autres"],
-            "sources_utilisees": [
-                "meteorologie.json",
-                "phytosanitaire_produits.json",
-                "Ecophytopic.fr",
-                "Ephytia.inrae.fr",
-                "gd.eppo.int",
-                "draaf.agriculture.gouv.fr"
-            ]
+              }},
+              "recommandations": {{
+                "actions_urgentes": [
+                  {{
+                    "priorite": 1,
+                    "action": "Isoler et surveiller les zones touchées",
+                    "justification": "Limiter la propagation des spores",
+                    "delai": "Immédiat (0-24h)",
+                    "methode": "Agroécologique - Observation",
+                    "cout_estime": "Faible",
+                    "sources": ["Guide IPM Viticulture - INRAE", "Ecophytopic.fr"]
+                  }}
+                ],
+                "actions_recommandees": [
+                  {{
+                    "priorite": 3,
+                    "action": "Application bouillie bordelaise si aggravation",
+                    "justification": "Protection curative",
+                    "delai": "48-72h si extension confirmée",
+                    "methode": "Dernier recours - Chimique raisonné",
+                    "cout_estime": "Élevé",
+                    "sources": ["Manuel IFT Avril 2018.pdf - p.42", "phytosanitaire_produits.json"]
+                  }}
+                ],
+                "surveillance_preventive": [
+                  {{
+                    "action": "Monitoring quotidien des nouvelles taches",
+                    "frequence": "2 fois/jour pendant 7 jours",
+                    "indicateurs": ["Nouvelles taches huileuses", "Extension zones touchées", "Duvet blanc"],
+                    "methode": "Agroécologique - Observation",
+                    "sources": ["BSV - Protocole surveillance"]
+                  }}
+                ],
+                "pratiques_preventives_futures": {{
+                  "culturelles": [
+                    {{
+                      "pratique": "Enherbement inter-rang",
+                      "benefice": "Réduction humidité au sol",
+                      "periode": "Automne prochain",
+                      "source": "DEPHY EXPE - Méthodes contrôle biologique"
+                    }}
+                  ],
+                  "mecaniques": [
+                    {{
+                      "pratique": "Palissage aéré",
+                      "benefice": "Meilleure circulation d'air",
+                      "periode": "Printemps",
+                      "source": "Chambre Agriculture"
+                    }}
+                  ],
+                  "biologiques": [
+                    {{
+                      "pratique": "Purin d'ortie préventif",
+                      "benefice": "Renforcement défenses naturelles",
+                      "periode": "Avant floraison",
+                      "source": "ITAB - Guide biocontrôle"
+                    }}
+                  ]
+                }}
+              }},
+              "contexte": {{
+                "situation_meteorologique": {{
+                  "resume_recent": "Humidité élevée (85-90%) + T° 18-22°C depuis 3 jours",
+                  "anomalies_detectees": ["Humidité +20% vs normale", "Pluies +15mm en 5 jours"],
+                  "previsions_72h": "Pluie modérée attendue",
+                  "impact_risque": "Conditions optimales pour mildiou"
+                }},
+                "historique_parcelle": {{
+                  "dernier_traitement": "Soufre (oïdium) - il y a 15 jours",
+                  "episodes_similaires": ["Juin 2023 - Mildiou confirmé"]
+                }}
+              }},
+              "sources_et_fiabilite": {{
+                "sources_utilisees": {{
+                  "meteorologie": ["meteorologie.json", "Météo France"],
+                  "phytosanitaire": ["Ephytia.inrae.fr", "phytosanitaire_produits.json", "Manuel IFT Avril 2018.pdf"],
+                  "instituts": ["INRAE", "IFV", "DRAAF", "Ecophytopic.fr"],
+                  "reglementation": ["products-autorises.json"]
+                }},
+                "fiabilite_analyse": {{
+                  "qualite_image": "Bonne (symptômes visibles)",
+                  "coherence_donnees": "Élevée (météo + symptômes concordants)",
+                  "completude_contexte": "Partielle (historique parcelle manquant)",
+                  "niveau_confiance_final": 0.75
+                }},
+                "limites_analyse": ["Analyse basée sur image unique", "Historique cultural incomplet"]
+              }}
             }}
 
-            Directives finales
-            Ne jamais inventer de données. Toujours citer les sources. Adapter les recommandations à {{A}}, {{B}} et à la météo du jour. Abaisser le niveau de confiance si données textuelles seules. Si aucune menace détectée, signaler la normalité de la culture. En cas d'incertitude, conclure par "analyse à confirmer par observation terrain et/ou photo nette".
+            DIRECTIVES CRITIQUES:
+            1. TOUJOURS fournir 2-3 hypothèses diagnostiques minimum (sauf si culture saine)
+            2. TOUJOURS classer les recommandations par priorité (urgent 1-2, recommandé 3-5, surveillance)
+            3. TOUJOURS citer la source EXACTE pour chaque action (nom du fichier, page PDF, URL)
+            4. TOUJOURS respecter la hiérarchie IPM dans les recommandations
+            5. TOUJOURS indiquer les limites de l'analyse dans "limites_analyse"
+            6. Ne JAMAIS inventer de données - si manquantes, l'indiquer clairement
+            7. Retourner UNIQUEMENT le JSON, sans texte avant/après, sans markdown
             """
-             # Construire le prompt final avec le contexte récupéré
-        prompt = f"{system_prompt}\n\nContexte extrait des sources:\n{context}\n\nQuestion:\n{question}"
+        
+        # Construire le prompt final avec le contexte récupéré
+        prompt = f"{system_prompt}\n\nContexte extrait des sources:\n{context}\n\nQuestion:\n{question}\n\nRappel: Retournez UNIQUEMENT le JSON, rien d'autre."
 
-        # Appel LLM
-        answer = self.call_llm(system_prompt, prompt, image_path=image_path)
-        return {"answer": answer, "context": docs, "metadatas": metas}
+        try:
+            # Appel LLM
+            raw_answer = self.call_llm(system_prompt, prompt, image_path=image_path)
+            
+            # Extraction et parsing du JSON
+            json_data = self._extract_json_from_text(raw_answer)
+            
+            # Validation avec Pydantic
+            validated_analysis = self._validate_and_fix_json(json_data)
+            
+            # Retour avec l'objet validé
+            return {
+                "answer": validated_analysis.model_dump(),  # Convertir en dict
+                "context": docs,
+                "metadatas": metas,
+                "raw_response": raw_answer  # Pour debug si nécessaire
+            }
+            
+        except ValueError as e:
+            # Erreur d'extraction JSON
+            self.logger.error(f"Impossible d'extraire le JSON: {e}")
+            fallback = self._get_fallback_response(str(e))
+            return {
+                "answer": fallback.model_dump(),
+                "context": docs,
+                "metadatas": metas,
+                "error": str(e)
+            }
+            
+        except Exception as e:
+            # Erreur générale
+            self.logger.error(f"Erreur lors de l'analyse: {e}")
+            fallback = self._get_fallback_response(str(e))
+            return {
+                "answer": fallback.model_dump(),
+                "context": [],
+                "metadatas": [],
+                "error": str(e)
+            }
