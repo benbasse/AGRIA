@@ -173,6 +173,68 @@ class RAG:
     #     prompt  = f"{system_prompt}\n\nContexte:\n{context}\n\nQuestion:\n{question}"
     #     answer  = self.call_llm(system_prompt, prompt, image_path=image_path)
     #     return {"answer": answer, "context": docs, "metadatas": metas}
+    def ask_simple(
+        self,
+        use_case,
+        question,
+        system_prompt: str | None = None,
+    ):
+        """
+        Méthode pour les questions simples sans image.
+        Retourne une réponse en langage naturel (pas de JSON structuré).
+        """
+        docs, metas = self.retrieve(use_case, question)
+        context = "\n\n---\n\n".join(docs)
+
+        # Prompt pour conversation naturelle
+        if system_prompt is None:
+            system_prompt = """
+            Vous êtes un agronome expert et conseiller agricole spécialisé en agroécologie.
+            Votre rôle est de répondre aux questions des agriculteurs de manière claire, pédagogique et pratique.
+            
+            DIRECTIVES:
+            - Répondez en langage naturel et accessible
+            - Citez vos sources quand c'est pertinent
+            - Privilégiez les approches agroécologiques
+            - Soyez précis et concret dans vos conseils
+            - Si vous ne savez pas, dites-le honnêtement
+            - N'inventez jamais de données
+            
+            Utilisez le contexte fourni pour enrichir votre réponse.
+            """
+        
+        # Construire le prompt
+        prompt = f"{system_prompt}\n\nContexte extrait des sources:\n{context}\n\nQuestion de l'agriculteur:\n{question}\n\nRéponse:"
+        
+        try:
+            # Appel LLM sans forcer le format JSON
+            response = self.client.chat.completions.create(
+                model=self.model,
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": f"Contexte:\n{context}\n\nQuestion:\n{question}"}
+                ],
+                max_tokens=1500,
+                temperature=0.7
+            )
+            
+            answer = response.choices[0].message.content.strip()
+            
+            return {
+                "answer": answer,
+                "context": docs,
+                "metadatas": metas
+            }
+            
+        except Exception as e:
+            self.logger.error(f"Erreur lors de l'appel LLM simple: {e}")
+            return {
+                "answer": f"Désolé, une erreur s'est produite: {str(e)}",
+                "context": [],
+                "metadatas": [],
+                "error": str(e)
+            }
+
     def ask(
         self,
         use_case,

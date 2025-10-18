@@ -148,23 +148,17 @@ async def upload_image(
 @app.post("/ask", response_model=SimpleAPIResponseSchema)
 async def ask(use_case: str = Form(...), question: str = Form(...)):
     """
-    Endpoint simple pour poser une question sans image.
-    Retourne un format simple: {"status": "ok", "caption": {"answer": "..."}}
+    Endpoint pour conversation naturelle sans image.
+    Retourne une réponse en langage naturel: {"status": "ok", "caption": {"answer": "..."}}
     """
-    logging.info(f"📝 Question reçue - use_case: {use_case}, question: {question}")
+    logging.info(f"💬 Question reçue - use_case: {use_case}, question: {question}")
     try:
-        res = rag.ask(use_case, question)
+        # Utiliser ask_simple() pour une réponse en langage naturel
+        res = rag.ask_simple(use_case, question)
         
-        # Extraire la réponse
+        # Extraire la réponse (c'est maintenant une string directement)
         if isinstance(res, dict) and "answer" in res:
-            answer_data = res["answer"]
-            
-            # Si answer est un dict (format JSON complet), le convertir en string JSON formatée
-            if isinstance(answer_data, dict):
-                import json
-                answer_text = json.dumps(answer_data, ensure_ascii=False, indent=2)
-            else:
-                answer_text = str(answer_data)
+            answer_text = res["answer"]
         elif isinstance(res, str):
             answer_text = res
         else:
