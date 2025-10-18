@@ -208,8 +208,8 @@ class RAG:
         
         try:
             # Appel LLM sans forcer le format JSON
-            response = self.client.chat.completions.create(
-                model=self.model,
+            response = openai.chat.completions.create(
+                model=LLM_MODEL,
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": f"Contexte:\n{context}\n\nQuestion:\n{question}"}
