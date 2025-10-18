@@ -199,6 +199,7 @@ class RAG:
             - Soyez précis et concret dans vos conseils
             - Si vous ne savez pas, dites-le honnêtement
             - N'inventez jamais de données
+            -QUAND ON TE POSE UNE QUESTION, IL FAUT FOURNIR UNE COURTE REPONSE PAS DE GRAND POINT
             
             Utilisez le contexte fourni pour enrichir votre réponse.
             """
