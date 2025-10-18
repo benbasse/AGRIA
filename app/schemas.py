@@ -256,7 +256,7 @@ class AnalyseAgricoleSchema(BaseModel):
 
 
 class APIResponseSchema(BaseModel):
-    """Schéma pour la réponse API complète"""
+    """Schéma pour la réponse API complète (endpoint /upload-image)"""
     status: str = Field(default="ok")
     caption: AnalyseAgricoleSchema
     file_id: Optional[str] = Field(default=None)
@@ -268,5 +268,27 @@ class APIResponseSchema(BaseModel):
                 "status": "ok",
                 "caption": AnalyseAgricoleSchema.Config.json_schema_extra["example"],
                 "file_id": "uuid-1234-5678"
+            }
+        }
+
+
+class SimpleAnswerSchema(BaseModel):
+    """Schéma simple pour la réponse texte (endpoint /ask)"""
+    answer: str = Field(default="")
+
+
+class SimpleAPIResponseSchema(BaseModel):
+    """Schéma pour la réponse API simple (endpoint /ask)"""
+    status: str = Field(default="ok")
+    caption: SimpleAnswerSchema
+
+    class Config:
+        """Configuration Pydantic"""
+        json_schema_extra = {
+            "example": {
+                "status": "ok",
+                "caption": {
+                    "answer": "Voici la réponse à votre question..."
+                }
             }
         }

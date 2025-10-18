@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import openai
 from app.vector_store import VectorStoreManager
 from app.rag import RAG
-from app.schemas import APIResponseSchema
+from app.schemas import APIResponseSchema, SimpleAPIResponseSchema, SimpleAnswerSchema
 # from app.image_service import caption_image
 caption_image = None 
 
@@ -117,24 +117,64 @@ async def upload_image(
         return response
 
     except Exception as e:
-        logging.error(f"Erreur dans /upload-image: {e}")
+        logging.error(f"❌ Erreur dans /upload-image: {e}")
         # Retourner une réponse de fallback valide même en cas d'erreur
-        from app.schemas import AnalyseAgricoleSchema
-        fallback = AnalyseAgricoleSchema(
-            niveau_confiance=0.0,
-            phenologie_actuelle=f"Erreur lors de l'analyse: {str(e)}",
-            sources_utilisees=["Système de fallback"]
+        from app.schemas import (
+            AnalyseAgricoleSchema, 
+            DiagnosticSchema, 
+            DiagnosticPrincipalSchema
         )
+        
+        # Créer un diagnostic de fallback
+        diagnostic_fallback = DiagnosticSchema(
+            niveau_confiance_global=0.0,
+            stade_phenologique=f"Erreur lors de l'analyse: {str(e)}"
+        )
+        diagnostic_fallback.diagnostic_principal = DiagnosticPrincipalSchema(
+            nom="Erreur",
+            probabilite=0.0,
+            synthese=f"Erreur: {str(e)}"
+        )
+        
+        fallback = AnalyseAgricoleSchema()
+        fallback.diagnostic = diagnostic_fallback
+        
         return APIResponseSchema(
             status="error",
             caption=fallback,
             file_id=None
         )
 
-@app.post("/ask")
+@app.post("/ask", response_model=SimpleAPIResponseSchema)
 async def ask(use_case: str = Form(...), question: str = Form(...)):
-    res = rag.ask(use_case, question)
-    return JSONResponse(res)
+    """
+    Endpoint simple pour poser une question sans image.
+    Retourne un format simple: {"status": "ok", "caption": {"answer": "..."}}
+    """
+    logging.info(f"📝 Question reçue - use_case: {use_case}, question: {question}")
+    try:
+        res = rag.ask(use_case, question)
+        
+        # Extraire la réponse (peut être dans res["answer"] ou res directement)
+        if isinstance(res, dict) and "answer" in res:
+            answer_text = res["answer"]
+        elif isinstance(res, str):
+            answer_text = res
+        else:
+            answer_text = str(res)
+        
+        # Retourner le format simple
+        return SimpleAPIResponseSchema(
+            status="ok",
+            caption=SimpleAnswerSchema(answer=answer_text)
+        )
+    
+    except Exception as e:
+        logging.error(f"❌ Erreur dans /ask: {e}")
+        return SimpleAPIResponseSchema(
+            status="error",
+            caption=SimpleAnswerSchema(answer=f"Erreur: {str(e)}")
+        )
 
 @app.post("/upload-audio")
 async def upload_audio( 
