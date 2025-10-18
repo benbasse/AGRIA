@@ -155,9 +155,16 @@ async def ask(use_case: str = Form(...), question: str = Form(...)):
     try:
         res = rag.ask(use_case, question)
         
-        # Extraire la réponse (peut être dans res["answer"] ou res directement)
+        # Extraire la réponse
         if isinstance(res, dict) and "answer" in res:
-            answer_text = res["answer"]
+            answer_data = res["answer"]
+            
+            # Si answer est un dict (format JSON complet), le convertir en string JSON formatée
+            if isinstance(answer_data, dict):
+                import json
+                answer_text = json.dumps(answer_data, ensure_ascii=False, indent=2)
+            else:
+                answer_text = str(answer_data)
         elif isinstance(res, str):
             answer_text = res
         else:
