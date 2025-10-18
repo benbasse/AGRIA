@@ -59,6 +59,47 @@ class RAG:
     def __init__(self, vector_manager):
         self.vm = vector_manager
         self.logger = logging.getLogger(__name__)
+        # Charger les bases de connaissances au démarrage
+        self.knowledge_base = self._load_knowledge_base()
+        self.role_base = self._load_role_base()
+
+    def _load_knowledge_base(self) -> str:
+        """
+        Charge la base de connaissances depuis knowlegebase.md.
+        Retourne le contenu formaté pour être intégré dans le prompt.
+        """
+        try:
+            kb_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "knowlegebase.md")
+            if os.path.exists(kb_path):
+                with open(kb_path, "r", encoding="utf-8") as f:
+                    content = f.read()
+                self.logger.info(f"✅ Base de connaissances chargée depuis {kb_path}")
+                return content
+            else:
+                self.logger.warning(f"⚠️ Fichier knowlegebase.md non trouvé à {kb_path}")
+                return ""
+        except Exception as e:
+            self.logger.error(f"❌ Erreur lors du chargement de knowlegebase.md: {e}")
+            return ""
+
+    def _load_role_base(self) -> str:
+        """
+        Charge la base de rôles depuis rolebase.md.
+        Retourne le contenu formaté pour être intégré dans le prompt.
+        """
+        try:
+            rb_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "rolebase.md")
+            if os.path.exists(rb_path):
+                with open(rb_path, "r", encoding="utf-8") as f:
+                    content = f.read()
+                self.logger.info(f"✅ Base de rôles chargée depuis {rb_path}")
+                return content
+            else:
+                self.logger.warning(f"⚠️ Fichier rolebase.md non trouvé à {rb_path}")
+                return ""
+        except Exception as e:
+            self.logger.error(f"❌ Erreur lors du chargement de rolebase.md: {e}")
+            return ""
 
     def _extract_json_from_text(self, text: str) -> dict:
         """
@@ -291,9 +332,29 @@ class RAG:
 
         # Prompt pour conversation naturelle
         if system_prompt is None:
-            system_prompt = """
+            # Intégrer les bases de connaissances dans le prompt pour les questions simples
+            kb_section = f"""
+            
+            === BASE DE CONNAISSANCES SPÉCIALISÉE ===
+            Vous disposez d'une base de connaissances détaillée:
+            
+            {self.knowledge_base}
+            
+            === EXPERTISE PAR DOMAINE ===
+            Vous avez accès à l'expertise de spécialistes:
+            
+            {self.role_base}
+            
+            Utilisez ces informations pour enrichir vos réponses.
+            ============================================
+            
+            """ if self.knowledge_base or self.role_base else ""
+            
+            system_prompt = f"""
             Vous êtes un agronome expert et conseiller agricole spécialisé en agroécologie.
             Votre rôle est de répondre aux questions des agriculteurs de manière claire, pédagogique et pratique.
+            
+            {kb_section}
             
             DIRECTIVES:
             - Répondez en langage naturel et accessible
@@ -302,7 +363,7 @@ class RAG:
             - Soyez précis et concret dans vos conseils
             - Si vous ne savez pas, dites-le honnêtement
             - N'inventez jamais de données
-            -QUAND ON TE POSE UNE QUESTION, IL FAUT FOURNIR UNE COURTE REPONSE PAS DE GRAND POINT
+            - QUAND ON TE POSE UNE QUESTION, IL FAUT FOURNIR UNE COURTE REPONSE PAS DE GRAND POINT
             
             Utilisez le contexte fourni pour enrichir votre réponse.
             """
@@ -364,8 +425,28 @@ class RAG:
 
         # Si aucun system_prompt fourni, on crée le prompt expert complet en français
         if system_prompt is None:
-            system_prompt = """
+            # Intégrer les bases de connaissances dans le prompt système
+            kb_section = f"""
+            
+            === BASE DE CONNAISSANCES SPÉCIALISÉE ===
+            Vous disposez d'une base de connaissances détaillée sur les maladies, ravageurs et carences de la tomate:
+            
+            {self.knowledge_base}
+            
+            === EXPERTISE PAR DOMAINE ===
+            Vous avez accès à l'expertise de spécialistes:
+            
+            {self.role_base}
+            
+            Utilisez ces informations pour enrichir votre diagnostic et vos recommandations.
+            ============================================
+            
+            """ if self.knowledge_base or self.role_base else ""
+            
+            system_prompt = f"""
             Vous êtes un agronome senior et spécialiste en agroécologie. Votre mission est d'établir un diagnostic phytosanitaire NUANCÉ, ACTIONNABLE et SOURCÉ pour aider l'agriculteur à prendre des décisions éclairées.
+            
+            {kb_section}
             
             PRINCIPES FONDAMENTAUX:
             1. DIAGNOSTIC NUANCÉ: Présentez TOUJOURS plusieurs hypothèses pondérées (pas un seul diagnostic absolu)
