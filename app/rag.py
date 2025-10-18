@@ -173,6 +173,109 @@ class RAG:
     #     prompt  = f"{system_prompt}\n\nContexte:\n{context}\n\nQuestion:\n{question}"
     #     answer  = self.call_llm(system_prompt, prompt, image_path=image_path)
     #     return {"answer": answer, "context": docs, "metadatas": metas}
+    def _validate_image_for_usecase(self, image_path: str, use_case: str) -> dict:
+        """
+        Valide que l'image correspond au use_case avant de faire le diagnostic complet.
+        
+        Returns:
+            dict avec:
+            - is_valid (bool): True si l'image correspond au use_case
+            - can_alert (bool): True si l'image peut alerter sur le use_case même si différente
+            - message (str): Message explicatif
+            - detected_type (str): Type de culture détecté
+        """
+        try:
+            # Encoder l'image en base64
+            with open(image_path, "rb") as f:
+                img_b64 = base64.b64encode(f.read()).decode("utf-8")
+            
+            # Prompt de validation
+            validation_prompt = f"""
+            Analysez cette image et déterminez:
+            1. Est-ce une image agricole (culture, plante, sol agricole) ?
+            2. Si oui, quel type de culture est visible ?
+            3. Est-ce que cette culture correspond au use_case demandé: "{use_case}" ?
+            4. Si la culture est différente, peut-elle quand même alerter sur des problèmes liés au use_case "{use_case}" (ex: ravageur commun, maladie transmissible) ?
+            
+            Répondez UNIQUEMENT avec un JSON dans ce format exact:
+            {{
+                "is_agricultural": true/false,
+                "detected_culture": "nom de la culture détectée ou 'non-agricole'",
+                "matches_usecase": true/false,
+                "can_alert": true/false,
+                "reason": "explication courte"
+            }}
+            """
+            
+            response = openai.chat.completions.create(
+                model=LLM_MODEL,
+                messages=[
+                    {
+                        "role": "user",
+                        "content": [
+                            {"type": "text", "text": validation_prompt},
+                            {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{img_b64}"}}
+                        ]
+                    }
+                ],
+                max_tokens=300,
+                temperature=0.3
+            )
+            
+            # Parser la réponse
+            validation_text = response.choices[0].message.content.strip()
+            validation_data = self._extract_json_from_text(validation_text)
+            
+            # Construire le résultat
+            if not validation_data.get("is_agricultural", False):
+                return {
+                    "is_valid": False,
+                    "can_alert": False,
+                    "message": "❌ Cette image ne semble pas être une image agricole. Veuillez fournir une photo de culture, plante ou sol agricole.",
+                    "detected_type": "non-agricole"
+                }
+            
+            if not validation_data.get("matches_usecase", False):
+                detected = validation_data.get("detected_culture", "inconnue")
+                reason = validation_data.get("reason", "")
+                can_alert = validation_data.get("can_alert", False)
+                
+                if can_alert:
+                    # L'image peut alerter même si différente
+                    return {
+                        "is_valid": True,
+                        "can_alert": True,
+                        "message": f"⚠️ Image de {detected} détectée (use_case: {use_case}). Analyse possible car peut alerter. {reason}",
+                        "detected_type": detected
+                    }
+                else:
+                    # L'image ne correspond pas et ne peut pas alerter
+                    return {
+                        "is_valid": False,
+                        "can_alert": False,
+                        "message": f"❌ Cette image montre une culture de type '{detected}' qui ne correspond pas au use_case '{use_case}'. {reason}\n\nVeuillez fournir une image correspondant à votre use_case.",
+                        "detected_type": detected
+                    }
+            
+            # Image valide et correspond au use_case
+            return {
+                "is_valid": True,
+                "can_alert": False,
+                "message": "✅ Image valide",
+                "detected_type": validation_data.get("detected_culture", use_case)
+            }
+            
+        except Exception as e:
+            self.logger.error(f"Erreur lors de la validation de l'image: {e}")
+            # En cas d'erreur, on laisse passer pour ne pas bloquer
+            return {
+                "is_valid": True,
+                "can_alert": False,
+                "message": "⚠️ Validation de l'image impossible, analyse effectuée",
+                "detected_type": "unknown",
+                "error": str(e)
+            }
+
     def ask_simple(
         self,
         use_case,
@@ -243,6 +346,18 @@ class RAG:
         image_path: str | None = None,
         system_prompt: str | None = None,
     ):
+        # ÉTAPE 1: Validation préalable de l'image (si fournie)
+        if image_path:
+            validation_result = self._validate_image_for_usecase(image_path, use_case)
+            
+            # Si l'image n'est pas valide et ne peut pas alerter, retourner un message simple
+            if not validation_result["is_valid"] and not validation_result["can_alert"]:
+                return {
+                    "answer": validation_result["message"],
+                    "context": [],
+                    "metadatas": [],
+                    "image_validation": validation_result
+                }
 
         docs, metas = self.retrieve(use_case, question)
         context = "\n\n---\n\n".join(docs)

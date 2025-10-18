@@ -3,6 +3,7 @@ import os, uuid, logging
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Request
 from fastapi.responses import JSONResponse
 from fastapi.exceptions import RequestValidationError
+from typing import Union
 from dotenv import load_dotenv
 import openai
 from app.vector_store import VectorStoreManager
@@ -54,7 +55,7 @@ async def health_check():
     return {"status": "healthy"}
 
 
-@app.post("/upload-image", response_model=APIResponseSchema)
+@app.post("/upload-image", response_model=Union[APIResponseSchema, SimpleAPIResponseSchema])
 async def upload_image(
     use_case: str = Form(...),
     file: UploadFile = File(...),
@@ -62,7 +63,7 @@ async def upload_image(
 ):
     """
     Upload et analyse d'une image agricole.
-    Retourne un JSON strictement formaté selon le schéma APIResponseSchema.
+    Retourne un diagnostic complet si l'image est valide, ou un message simple si l'image n'est pas exploitable.
     """
     logging.info(f"📥 Requête reçue - use_case: {use_case}, file: {file.filename if file else 'None'}, question: {question}")
     try:
@@ -87,6 +88,15 @@ async def upload_image(
             question=question,
             image_path=path
         )
+        
+        # Vérifier si l'image n'est pas valide (validation a échoué)
+        if isinstance(analysis["answer"], str):
+            # L'image n'est pas exploitable, retourner un format simple
+            logging.warning(f"⚠️ Image non valide pour use_case '{use_case}': {analysis['answer']}")
+            return SimpleAPIResponseSchema(
+                status="ok",
+                caption=SimpleAnswerSchema(answer=analysis["answer"])
+            )
         
         # L'objet 'answer' est déjà un dict validé par Pydantic
         caption_dict = analysis["answer"]
